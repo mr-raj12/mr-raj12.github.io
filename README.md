@@ -1,36 +1,156 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Ankit Sisodya | Portfolio
 
-## Getting Started
+A modern, responsive portfolio website built with **Next.js 16** featuring a sleek dark theme, glassmorphism effects, and smooth animations.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16.1-black?logo=next.js)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+- 🌙 **Dark Theme** with glassmorphism and gradient effects
+- 📱 **Fully Responsive** - Mobile, tablet, and desktop optimized
+- ⚡ **Fast Performance** - Built with Next.js App Router
+- 🎯 **Modular Architecture** - Separate components and centralized config
+- 🎨 **Smooth Animations** - Scroll reveal effects using Intersection Observer
+- 🔗 **Dynamic Content** - Easy to update via single config file
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Language:** JavaScript/React
+- **Styling:** CSS with custom properties
+- **Icons:** Font Awesome 6
+- **Font:** Inter (Google Fonts)
+
+## 📂 Project Structure
+
+```
+src/
+├── app/
+│   ├── globals.css      # Global styles with dark theme
+│   ├── layout.js        # Root layout with metadata
+│   └── page.js          # Main page composition
+├── components/
+│   ├── Navbar.js        # Responsive navigation
+│   ├── Hero.js          # Hero with ratings
+│   ├── About.js         # Education & stats
+│   ├── Experience.js    # Work history
+│   ├── Projects.js      # Featured projects
+│   ├── Achievements.js  # Competition rankings
+│   ├── Skills.js        # Technical skills
+│   ├── Contact.js       # Contact info
+│   └── Footer.js        # Footer
+└── config/
+    └── portfolio.js     # ⭐ All portfolio data
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 18+
+- npm or yarn
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Clone the repository
+git clone https://github.com/Ankitsinghsisodya/Ankitsisodya.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Navigate to project
+cd Ankitsisodya
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Install dependencies
+npm install
 
-## Deploy on Vercel
+# Start development server
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Customization
+
+All portfolio content is managed in a single file: `src/config/portfolio.js`
+
+### Update Personal Info
+
+```javascript
+export const siteConfig = {
+  name: "Your Name",
+  tagline: "Your Tagline",
+  // ...
+};
+```
+
+### Add Projects
+
+```javascript
+export const projects = [
+  {
+    title: "Project Name",
+    description: "Description",
+    tech: ["React", "Node.js"],
+    liveLink: "https://...",
+    githubLink: "https://...",
+  },
+  // ...
+];
+```
+
+### Add Achievements
+
+```javascript
+export const achievements = [
+  {
+    rank: "Rank 1",
+    title: "Competition Name",
+    desc: "Description",
+    link: "https://proof-link",
+  },
+  // ...
+];
+```
+
+## 📦 Build for Production
+
+```bash
+# Create production build
+npm run build
+
+# Start production server
+npm start
+```
+
+## 🌐 Deployment
+
+### Vercel (Recommended)
+
+1. Push code to GitHub
+2. Import repository on [Vercel](https://vercel.com)
+3. Deploy with one click
+
+### Other Platforms
+
+Works with any platform supporting Next.js:
+
+- Netlify
+- AWS Amplify
+- Railway
+- DigitalOcean
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Connect
+
+- **GitHub:** [@Ankitsinghsisodya](https://github.com/Ankitsinghsisodya)
+- **LinkedIn:** [Ankit Sisodya](https://www.linkedin.com/in/ankit-sisodya)
+- **Codeforces:** [Expert (1776)](https://codeforces.com/profile/Ankit_singh_sisodya)
+- **LeetCode:** [Guardian (2216)](https://leetcode.com/u/Ankit_singh_sisodya/)
+
+---
+
+⭐ **Star this repo if you find it helpful!**
