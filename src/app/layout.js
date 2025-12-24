@@ -1,3 +1,4 @@
+import { siteConfig } from "@/config/portfolio";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -7,9 +8,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Ankit Sisodya | Portfolio",
-  description:
-    "Ankit Sisodya - Computer Science student at BIT Mesra, Competitive Programmer, and Full-Stack Developer. Expert on Codeforces, Guardian on LeetCode.",
+  title: siteConfig.title,
+  description: siteConfig.description,
   keywords: [
     "Ankit Sisodya",
     "Portfolio",
@@ -17,7 +17,7 @@ export const metadata = {
     "Full Stack Developer",
     "BIT Mesra",
   ],
-  authors: [{ name: "Ankit Sisodya" }],
+  authors: [{ name: siteConfig.name }],
 };
 
 export default function RootLayout({ children }) {
