@@ -113,44 +113,8 @@ export const achievements = [
 ];
 ```
 
-## 📦 Build for Production
-
-```bash
-# Create production build
-npm run build
-
-# Start production server
-npm start
-```
-
-## 🌐 Deployment
-
-### Vercel (Recommended)
-
-1. Push code to GitHub
-2. Import repository on [Vercel](https://vercel.com)
-3. Deploy with one click
-
-### Other Platforms
-
-Works with any platform supporting Next.js:
-
-- Netlify
-- AWS Amplify
-- Railway
-- DigitalOcean
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Connect
-
 - **GitHub:** [@Ankitsinghsisodya](https://github.com/Ankitsinghsisodya)
 - **LinkedIn:** [Ankit Sisodya](https://www.linkedin.com/in/ankit-sisodya)
 - **Codeforces:** [Expert (1776)](https://codeforces.com/profile/Ankit_singh_sisodya)
 - **LeetCode:** [Guardian (2216)](https://leetcode.com/u/Ankit_singh_sisodya/)
 
----
-
-⭐ **Star this repo if you find it helpful!**
