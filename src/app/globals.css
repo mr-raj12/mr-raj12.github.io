@@ -119,6 +119,7 @@ img {
 
 .navMenu {
   display: flex;
+  align-items: center;
   gap: 32px;
 }
 
@@ -149,6 +150,32 @@ img {
 .navLink:hover::after,
 .navLink.active::after {
   width: 100%;
+}
+
+.navLink.resumeBtn {
+  background: var(--accent-gradient);
+  color: var(--text-primary);
+  padding: 8px 20px;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+  transition: var(--transition-normal);
+}
+
+.navLink.resumeBtn::after {
+  display: none;
+}
+
+.navLink.resumeBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(99, 102, 241, 0.4);
+}
+
+.navLink.resumeBtn i {
+  font-size: 0.85rem;
 }
 
 .navToggle {

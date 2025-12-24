@@ -40,6 +40,16 @@ export default function Navbar() {
               </a>
             </li>
           ))}
+          <li>
+            <a
+              href={siteConfig.resumeLink}
+              className="navLink resumeBtn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-file-alt"></i> Resume
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
