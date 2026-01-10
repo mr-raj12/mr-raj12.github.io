@@ -138,9 +138,32 @@ export const experiences = [
       "Enhanced backend reliability by implementing centralized <strong>error handling middleware</strong> and refactoring authentication logic to optimize password recovery and data validation workflows",
     ],
   },
+  {
+    company: "BITAcademia",
+    role: "Intern",
+    duration: "Aug 2025 – Present",
+    type: "Birla Institute of Technology, Mesra",
+    tech: "React • Node.js • MongoDB • Express",
+    proofLink: null,
+    githubLink: "https://github.com/BitWebApp/BitWebApp-24",
+    points: [
+      "Developed features for the official academic platform to streamline academic management for students, faculty, and administration",
+      "Contributed to building a comprehensive system for managing academic workflows at BIT Mesra",
+    ],
+  },
 ];
 
 export const projects = [
+  {
+    title: "GSoC Espionage",
+    description:
+      "GitHub PR analytics app with merge rates, contributor stats, and activity timelines. Features branch filtering, data exports, and theme support.",
+    icon: "fas fa-chart-line",
+    tech: ["React", "TypeScript", "Vite", "GitHub API"],
+    liveLink: "https://gsoc-espionage.vercel.app/",
+    githubLink: "https://github.com/Ankitsinghsisodya/Gsoc-espionage",
+  },
+
   {
     title: "SlotSwapper",
     description:
