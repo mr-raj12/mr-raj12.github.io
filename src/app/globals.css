@@ -1,6 +1,6 @@
 /* ===== CSS Variables ===== */
 :root {
-  /* Colors */
+  /* Colors - Orange & White Theme */
   --bg-primary: #0a0a0f;
   --bg-secondary: #12121a;
   --bg-card: rgba(255, 255, 255, 0.03);
@@ -10,9 +10,9 @@
   --text-secondary: #a0a0b0;
   --text-muted: #6b6b7b;
 
-  --accent-primary: #6366f1;
-  --accent-secondary: #8b5cf6;
-  --accent-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+  --accent-primary: #ff6b35;
+  --accent-secondary: #f7931e;
+  --accent-gradient: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ffb347 100%);
 
   --codeforces-color: #1e88e5;
   --leetcode-color: #ffa116;
@@ -161,7 +161,7 @@ img {
   align-items: center;
   gap: 8px;
   font-weight: 600;
-  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
   transition: var(--transition-normal);
 }
 
@@ -171,7 +171,7 @@ img {
 
 .navLink.resumeBtn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 6px 25px rgba(255, 107, 53, 0.4);
 }
 
 .navLink.resumeBtn i {
@@ -242,9 +242,9 @@ img {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(99, 102, 241, 0.15), transparent),
-    radial-gradient(ellipse 60% 40% at 80% 60%, rgba(139, 92, 246, 0.1), transparent),
-    radial-gradient(ellipse 50% 30% at 20% 80%, rgba(168, 85, 247, 0.08), transparent);
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(255, 107, 53, 0.15), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 60%, rgba(247, 147, 30, 0.1), transparent),
+    radial-gradient(ellipse 50% 30% at 20% 80%, rgba(255, 179, 71, 0.08), transparent);
   animation: bgPulse 8s ease-in-out infinite alternate;
 }
 
@@ -287,11 +287,11 @@ img {
 
 @keyframes nameGlow {
   0% {
-    filter: drop-shadow(0 0 20px rgba(99, 102, 241, 0.3));
+    filter: drop-shadow(0 0 20px rgba(255, 107, 53, 0.3));
   }
 
   100% {
-    filter: drop-shadow(0 0 40px rgba(139, 92, 246, 0.5));
+    filter: drop-shadow(0 0 40px rgba(247, 147, 30, 0.5));
   }
 }
 
@@ -324,7 +324,7 @@ img {
 .ratingBadge:hover {
   transform: translateY(-4px);
   border-color: var(--accent-primary);
-  box-shadow: 0 10px 40px rgba(99, 102, 241, 0.2);
+  box-shadow: 0 10px 40px rgba(255, 107, 53, 0.2);
 }
 
 .ratingBadge.codeforces .ratingValue {
@@ -378,7 +378,7 @@ img {
   border-color: var(--accent-primary);
   color: var(--text-primary);
   transform: translateY(-4px);
-  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
 }
 
 .heroCta {
@@ -402,12 +402,12 @@ img {
 .btnPrimary {
   background: var(--accent-gradient);
   color: var(--text-primary);
-  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 4px 20px rgba(255, 107, 53, 0.3);
 }
 
 .btnPrimary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 8px 30px rgba(255, 107, 53, 0.4);
 }
 
 .btnSecondary {
@@ -568,7 +568,7 @@ img {
 .educationCard:hover {
   border-color: var(--accent-primary);
   transform: translateY(-4px);
-  box-shadow: 0 20px 60px rgba(99, 102, 241, 0.15);
+  box-shadow: 0 20px 60px rgba(255, 107, 53, 0.15);
 }
 
 .educationIcon {
@@ -604,8 +604,8 @@ img {
   display: inline-block;
   margin-top: 12px;
   padding: 6px 16px;
-  background: rgba(99, 102, 241, 0.1);
-  border: 1px solid rgba(99, 102, 241, 0.3);
+  background: rgba(255, 107, 53, 0.1);
+  border: 1px solid rgba(255, 107, 53, 0.3);
   border-radius: var(--radius-full);
   font-size: 0.85rem;
   font-weight: 600;
@@ -630,7 +630,7 @@ img {
 .experienceCard:hover {
   border-color: var(--accent-primary);
   transform: translateY(-4px);
-  box-shadow: 0 20px 60px rgba(99, 102, 241, 0.15);
+  box-shadow: 0 20px 60px rgba(255, 107, 53, 0.15);
 }
 
 .experienceHeader {
@@ -650,7 +650,7 @@ img {
 .role {
   display: inline-block;
   padding: 4px 12px;
-  background: rgba(99, 102, 241, 0.1);
+  background: rgba(255, 107, 53, 0.1);
   border-radius: var(--radius-full);
   font-size: 0.8rem;
   color: var(--accent-primary);
@@ -729,13 +729,13 @@ img {
 .projectCard:hover {
   border-color: var(--accent-primary);
   transform: translateY(-8px);
-  box-shadow: 0 25px 80px rgba(99, 102, 241, 0.2);
+  box-shadow: 0 25px 80px rgba(255, 107, 53, 0.2);
 }
 
 .projectImage {
   height: 200px;
   position: relative;
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+  background: linear-gradient(135deg, rgba(255, 107, 53, 0.1), rgba(247, 147, 30, 0.1));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -806,7 +806,7 @@ img {
 
 .projectTech span {
   padding: 4px 12px;
-  background: rgba(99, 102, 241, 0.1);
+  background: rgba(255, 107, 53, 0.1);
   border-radius: var(--radius-full);
   font-size: 0.75rem;
   color: var(--accent-secondary);
@@ -845,7 +845,7 @@ img {
 .achievementCard:hover {
   border-color: var(--accent-primary);
   transform: translateY(-4px);
-  box-shadow: 0 20px 60px rgba(99, 102, 241, 0.15);
+  box-shadow: 0 20px 60px rgba(255, 107, 53, 0.15);
 }
 
 .achievementCard:hover::before {
@@ -904,7 +904,7 @@ img {
 .skillCategory:hover {
   border-color: var(--accent-primary);
   transform: translateY(-4px);
-  box-shadow: 0 20px 60px rgba(99, 102, 241, 0.15);
+  box-shadow: 0 20px 60px rgba(255, 107, 53, 0.15);
 }
 
 .skillCategory h3 {
@@ -923,8 +923,8 @@ img {
 
 .skillTags span {
   padding: 8px 16px;
-  background: rgba(99, 102, 241, 0.08);
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  background: rgba(255, 107, 53, 0.08);
+  border: 1px solid rgba(255, 107, 53, 0.2);
   border-radius: var(--radius-full);
   font-size: 0.85rem;
   color: var(--text-secondary);
@@ -932,7 +932,7 @@ img {
 }
 
 .skillTags span:hover {
-  background: rgba(99, 102, 241, 0.15);
+  background: rgba(255, 107, 53, 0.15);
   border-color: var(--accent-primary);
   color: var(--text-primary);
   transform: translateY(-2px);
@@ -972,7 +972,7 @@ img {
 .contactCard:hover {
   border-color: var(--accent-primary);
   transform: translateY(-4px);
-  box-shadow: 0 15px 40px rgba(99, 102, 241, 0.2);
+  box-shadow: 0 15px 40px rgba(255, 107, 53, 0.2);
 }
 
 .contactCard span {
@@ -1005,7 +1005,7 @@ img {
   border-color: var(--accent-primary);
   color: var(--text-primary);
   transform: translateY(-4px) scale(1.1);
-  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 10px 30px rgba(255, 107, 53, 0.4);
 }
 
 /* ===== Footer ===== */
