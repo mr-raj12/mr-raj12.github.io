@@ -144,7 +144,7 @@ export const experiences = [
     duration: "Aug 2025 – Present",
     type: "Birla Institute of Technology, Mesra",
     tech: "React • Node.js • MongoDB • Express",
-    proofLink: null,
+    proofLink: "http://139.167.188.221:3000",
     githubLink: "https://github.com/BitWebApp/BitWebApp-24",
     points: [
       "Developed features for the official academic platform to streamline academic management for students, faculty, and administration",
