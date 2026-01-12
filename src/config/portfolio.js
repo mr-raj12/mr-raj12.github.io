@@ -96,19 +96,6 @@ export const education = {
 
 export const experiences = [
   {
-    company: "TLE Eliminator",
-    role: "Intern",
-    duration: "Dec 2024 – Aug 2025",
-    type: "Remote • 9 months",
-    tech: null,
-    proofLink: null,
-    points: [
-      "Helped students understand and resolve DSA-related doubts by providing step-by-step explanations",
-      "Guided students in <strong>preparing for competitive coding challenges</strong>, focusing on techniques and strategies",
-      'Resolved <strong>704 DSA queries</strong> in 9 months and earned the <strong>"Top Mentor"</strong> appreciation for four consecutive weeks',
-    ],
-  },
-  {
     company: "OmegaUp",
     role: "Open Source Contributor",
     duration: null,
@@ -125,6 +112,32 @@ export const experiences = [
     ],
   },
   {
+    company: "TLE Eliminator",
+    role: "Intern",
+    duration: "Dec 2024 – Aug 2025",
+    type: "Remote • 9 months",
+    tech: null,
+    proofLink: null,
+    points: [
+      "Helped students understand and resolve DSA-related doubts by providing step-by-step explanations",
+      "Guided students in <strong>preparing for competitive coding challenges</strong>, focusing on techniques and strategies",
+      'Resolved <strong>704 DSA queries</strong> in 9 months and earned the <strong>"Top Mentor"</strong> appreciation for four consecutive weeks',
+    ],
+  },
+  {
+    company: "BITAcademia",
+    role: "SDE Intern",
+    duration: "Aug 2025 – Present",
+    type: "Birla Institute of Technology, Mesra",
+    tech: "React • Node.js • MongoDB • Express",
+    proofLink: "http://139.167.188.221:3000",
+    githubLink: "https://github.com/BitWebApp/BitWebApp-24",
+    points: [
+      "Developed features for the official academic platform to streamline academic management for students, faculty, and administration",
+      "Contributed to building a comprehensive system for managing academic workflows at BIT Mesra",
+    ],
+  },
+  {
     company: "Adventure Booking Platform",
     role: "Freelance Developer",
     duration: null,
@@ -136,19 +149,6 @@ export const experiences = [
     points: [
       "Engineered a data-driven <strong>gamification system</strong> that aggregates user activity to track and award instructor achievements, integrated directly into the <strong>PayPal</strong> service to trigger milestones upon payment completion",
       "Enhanced backend reliability by implementing centralized <strong>error handling middleware</strong> and refactoring authentication logic to optimize password recovery and data validation workflows",
-    ],
-  },
-  {
-    company: "BITAcademia",
-    role: "Intern",
-    duration: "Aug 2025 – Present",
-    type: "Birla Institute of Technology, Mesra",
-    tech: "React • Node.js • MongoDB • Express",
-    proofLink: "http://139.167.188.221:3000",
-    githubLink: "https://github.com/BitWebApp/BitWebApp-24",
-    points: [
-      "Developed features for the official academic platform to streamline academic management for students, faculty, and administration",
-      "Contributed to building a comprehensive system for managing academic workflows at BIT Mesra",
     ],
   },
 ];
