@@ -106,7 +106,7 @@ export const experiences = [
     points: [
       "Delivered 30 merged PRs spanning Backend, Frontend, & DevOps modules",
       "Integrate search functionality in school ranking (<a href='https://github.com/omegaup/omegaup/pull/8669' target='_blank'>#8669</a>)",
-      "migrate template.tpl notifications to reusable Vue component (<a href='https://github.com/omegaup/omegaup/pull/8670' target='_blank'>#8670</a>)",
+      "Migrate template.tpl notifications to reusable Vue component (<a href='https://github.com/omegaup/omegaup/pull/8670' target='_blank'>#8670</a>)",
       "Add workflow to check PR linked issues and assignees (<a href='https://github.com/omegaup/omegaup/pull/8621' target='_blank'>#8621</a>)",
       "Add image size validation and error messages for image uploads (<a href='https://github.com/omegaup/omegaup/pull/8619' target='_blank'>#8619</a>)",
     ],
