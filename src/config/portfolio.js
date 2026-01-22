@@ -104,9 +104,9 @@ export const experiences = [
     proofLink:
       "https://github.com/omegaup/omegaup/pulls?q=is%3Amerged+is%3Apr+author%3AAnkitsinghsisodya+",
     points: [
-      "Delivered 30 merged PRs spanning Backend, Frontend, & DevOps modules",
-      "Engineered a full-stack User Comparison module (PHP/Vue.js) with Nginx routing and TypeScript bindings. Enabled side-by-side profile analytics with shareable URL states, validated by comprehensive PHPUnit testing.(<a href='https://github.com/omegaup/omegaup/pull/8678' target='_blank'>#8678</a>)",
-      "Modernized the global notification system, migrating from legacy jQuery to a scalable Vue.js architecture. Replaced brittle DOM manipulation with reactive Vuex state management to improve performance and maintainability. (<a href='https://github.com/omegaup/omegaup/pull/8670' target='_blank'>#8670</a>)",
+      "Authored and got 30+ merged pull requests, driving core feature development and architectural modernizations for the platform",
+      "Engineered a full-stack User Comparison module (PHP/Vue.js) with Nginx routing and TypeScript bindings. Enabled side-by-side profile analytics with shareable URL states, validated by comprehensive PHPUnit testing(<a href='https://github.com/omegaup/omegaup/pull/8678' target='_blank'>#8678</a>)",
+      "Modernized the global notification system, migrating from legacy jQuery to a scalable Vue.js architecture. Replaced brittle DOM manipulation with reactive Vuex state management to improve performance and maintainability (<a href='https://github.com/omegaup/omegaup/pull/8670' target='_blank'>#8670</a>)",
       "Add workflow to check PR linked issues and assignees (<a href='https://github.com/omegaup/omegaup/pull/8621' target='_blank'>#8621</a>)",
       "Add image size validation and error messages for image uploads (<a href='https://github.com/omegaup/omegaup/pull/8619' target='_blank'>#8619</a>)",
     ],
