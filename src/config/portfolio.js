@@ -104,7 +104,7 @@ export const experiences = [
     proofLink:
       "https://github.com/omegaup/omegaup/pulls?q=is%3Amerged+is%3Apr+author%3AAnkitsinghsisodya+",
     points: [
-      "Authored and got 30+ merged pull requests, driving core feature development and architectural modernizations for the platform",
+      "Authored and got 38 merged pull requests, driving core feature development and architectural modernizations for the platform",
       "Engineered a full-stack User Comparison module (PHP/Vue.js) with Nginx routing and TypeScript bindings (<a href='https://github.com/omegaup/omegaup/pull/8678' target='_blank'>#8678</a>)",
       "Modernized the global notification system, migrating from legacy jQuery to a scalable Vue.js architecture (<a href='https://github.com/omegaup/omegaup/pull/8670' target='_blank'>#8670</a>)",
       "Enhanced omegaUp's user insights by shipping the \"Profile Statistics\" feature; delivered API endpoints and frontend visualizations for problem difficulty trends and unsolved problem tracking. (<a href='https://github.com/omegaup/omegaup/issues/8656' target='_blank'>#8656</a>)",
