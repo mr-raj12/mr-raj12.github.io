@@ -135,6 +135,7 @@ export const experiences = [
     points: [
       "Developed features for the official academic platform to streamline academic management for students, faculty, and administration",
       "Contributed to building a comprehensive system for managing academic workflows at BIT Mesra",
+      "Developed the entire summer module for the official academic platform role based access",
     ],
   },
   {
