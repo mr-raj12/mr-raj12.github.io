@@ -96,6 +96,18 @@ export const education = {
 
 export const experiences = [
   {
+    company: "Google Summer of Code – omegaUp",
+    role: "Mentor",
+    duration: "Feb 2026 – Present",
+    type: "Remote • Open Source",
+    tech: "PHP • Vue.js • TypeScript • GitHub Actions",
+    proofLink: null,
+    points: [
+      "Selected as a <strong>Mentor for the GSoC 2026</strong> cohort to guide aspiring contributors through the application phase and project roadmap",
+      "Reviewing pull requests and providing technical feedback to improve code quality and adherence to repository standards",
+    ],
+  },
+  {
     company: "OmegaUp",
     role: "Open Source Contributor",
     duration: null,
