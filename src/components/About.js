@@ -18,7 +18,7 @@ export default function About() {
             </p>
             <p>
               As an <strong>ICPC Asia West Regionalist</strong> and active open
-              source contributor with <strong>24+ merged PRs</strong>, I combine
+              source contributor with <strong>50+ merged PRs</strong>, I combine
               algorithmic expertise with real-world software development.
               I&apos;ve also resolved <strong>700+ DSA queries</strong> as a
               mentor, bridging the gap between theoretical knowledge and
