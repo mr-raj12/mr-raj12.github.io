@@ -81,7 +81,7 @@ export const navLinks = [
 ];
 
 export const aboutStats = [
-  { number: "24+", label: "Merged PRs" },
+  { number: "50+", label: "Merged PRs" },
   { number: "704", label: "DSA Queries Resolved" },
   { number: "1000+", label: "Active Users (IEEE Site)" },
 ];
