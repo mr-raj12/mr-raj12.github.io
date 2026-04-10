@@ -1,57 +1,44 @@
-"use client";
+import { contactInfo, siteConfig, socialLinks } from "@/config/portfolio";
 
-import { navLinks, siteConfig } from "@/config/portfolio";
-import { useEffect, useState } from "react";
+// Order: Home, Resume, Email, GitHub, LinkedIn, Twitter
+const dockOrder = ["github", "linkedin", "twitter", "email"];
 
 export default function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  const byPlatform = Object.fromEntries(
+    socialLinks.map((s) => [s.platform, s])
+  );
 
   return (
-    <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
-      <div className="navContainer">
-        <a href="#" className="navLogo">
-          {siteConfig.initials}
-        </a>
-        <button
-          className={`navToggle ${isMenuOpen ? "active" : ""}`}
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label="Toggle navigation"
-        >
-          <span className="hamburger"></span>
-        </button>
-        <ul className={`navMenu ${isMenuOpen ? "active" : ""}`}>
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                className="navLink"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-          <li>
-            <a
-              href={siteConfig.resumeLink}
-              className="navLink resumeBtn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fas fa-file-alt"></i> Resume
-            </a>
-          </li>
-        </ul>
-      </div>
+    <nav className="dock" aria-label="Primary">
+      <a href="#home" className="dockItem" aria-label="Home">
+        <i className="fas fa-home"></i>
+      </a>
+      <a
+        href={siteConfig.resumeLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="dockItem"
+        aria-label="Resume"
+      >
+        <i className="fas fa-file-alt"></i>
+      </a>
+      <span className="dockSep" aria-hidden="true"></span>
+      {dockOrder.map((p) => {
+        const link = byPlatform[p];
+        if (!link) return null;
+        return (
+          <a
+            key={p}
+            href={link.url}
+            target={p === "email" ? undefined : "_blank"}
+            rel={p === "email" ? undefined : "noopener noreferrer"}
+            className="dockItem"
+            aria-label={link.label}
+          >
+            <i className={link.icon}></i>
+          </a>
+        );
+      })}
     </nav>
   );
 }

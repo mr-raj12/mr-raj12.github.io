@@ -5,12 +5,9 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-      <div className="container">
-        <p>
-          Designed & Built by <strong>{siteConfig.name}</strong>
-        </p>
-        <p>&copy; {currentYear} All Rights Reserved</p>
-      </div>
+      <p>
+        © {currentYear} {siteConfig.name}
+      </p>
     </footer>
   );
 }

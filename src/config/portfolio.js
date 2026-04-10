@@ -36,6 +36,12 @@ export const socialLinks = [
     label: "LinkedIn",
   },
   {
+    platform: "twitter",
+    url: "https://x.com/Ankit_Sisodya",
+    icon: "fab fa-x-twitter",
+    label: "X (Twitter)",
+  },
+  {
     platform: "email",
     url: "mailto:ankitsingh24012005@gmail.com",
     icon: "fas fa-envelope",
@@ -81,9 +87,13 @@ export const navLinks = [
 ];
 
 export const aboutStats = [
-  { number: "50+", label: "Merged PRs" },
+  { number: "100+", label: "Merged PRs" },
   { number: "704", label: "DSA Queries Resolved" },
-  { number: "1000+", label: "Active Users (IEEE Site)" },
+  {
+    number: "2k+",
+    label: "Active Users (GSoC Espionage)",
+    link: "https://gsoc-espionage.vercel.app/",
+  },
 ];
 
 export const education = {
@@ -194,15 +204,6 @@ export const projects = [
     tech: ["Next.js", "TypeScript", "Gemini API", "Docker", "AWS", "Nginx"],
     liveLink: "https://test-case-generator-two.vercel.app/",
     githubLink: "https://github.com/Ankitsinghsisodya/test-case-generator",
-  },
-  {
-    title: "IEEE BIT Mesra Website",
-    description:
-      "Full-stack platform with 1000+ active users featuring a leaderboard integrating Codeforces, LeetCode, and CodeChef APIs.",
-    icon: "fas fa-globe",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Supabase"],
-    liveLink: "https://www.ieeebitmesra.in/",
-    githubLink: "https://github.com/Ankitsinghsisodya/IEEE-Website",
   },
 ];
 

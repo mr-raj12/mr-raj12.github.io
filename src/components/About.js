@@ -2,52 +2,62 @@ import { aboutStats, education } from "@/config/portfolio";
 
 export default function About() {
   return (
-    <section id="about" className="section">
-      <div className="container">
-        <h2 className="sectionTitle reveal">About Me</h2>
-        <div className="aboutContent">
-          <div className="aboutText reveal">
-            <p>
-              I&apos;m a <strong>Computer Science</strong> student at{" "}
-              <strong>{education.institution}</strong> (
-              {education.duration.split(" – ")[0].split(" ")[1]}–
-              {education.duration.split(" – ")[1].split(" ")[1]}) with a CGPA of{" "}
-              <strong>{education.cgpa}</strong>. My passion lies in competitive
-              programming, open source contributions, and building impactful web
-              applications.
-            </p>
-            <p>
-              As an <strong>ICPC Asia West Regionalist</strong> and active open
-              source contributor with <strong>50+ merged PRs</strong>, I combine
-              algorithmic expertise with real-world software development.
-              I&apos;ve also resolved <strong>700+ DSA queries</strong> as a
-              mentor, bridging the gap between theoretical knowledge and
-              practical application.
-            </p>
-            <div className="aboutStats">
-              {aboutStats.map((stat, index) => (
-                <div key={index} className="stat">
-                  <span className="statNumber">{stat.number}</span>
-                  <span className="statLabel">{stat.label}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="aboutEducation reveal">
-            <div className="educationCard">
-              <div className="educationIcon">
-                <i className="fas fa-graduation-cap"></i>
-              </div>
-              <div className="educationDetails">
-                <h3>{education.institution}</h3>
-                <p className="degree">{education.degree}</p>
-                <p className="duration">{education.duration}</p>
-                <p className="location">{education.location}</p>
-                <span className="cgpa">CGPA: {education.cgpa}</span>
-              </div>
-            </div>
-          </div>
+    <section id="about" className="section reveal">
+      <h2 className="sectionTitle">About</h2>
+      <div className="sectionLead">
+        <p>
+          I&apos;m a <strong>Computer Science</strong> student at{" "}
+          <strong>{education.institution}</strong> with a CGPA of{" "}
+          <strong>{education.cgpa}</strong>. I love competitive programming,
+          contributing to open source, and shipping web apps that people
+          actually use.
+        </p>
+        <p>
+          As an <strong>ICPC Asia West Regionalist</strong> with{" "}
+          <strong>100+ merged PRs</strong> across major OSS projects, I pair
+          algorithmic depth with real-world software engineering. Along the way
+          I&apos;ve resolved <strong>700+ DSA queries</strong> as a mentor.
+        </p>
+      </div>
+
+      <div className="eduCard">
+        <div className="eduIcon" aria-hidden="true">
+          <i className="fas fa-graduation-cap"></i>
         </div>
+        <div className="eduBody">
+          <div className="eduInstitution">{education.institution}</div>
+          <div className="eduDegree">{education.degree}</div>
+          <div className="eduMeta">
+            {education.duration} · {education.location}
+          </div>
+          <div className="eduCgpa">CGPA: {education.cgpa}</div>
+        </div>
+      </div>
+
+      <div className="aboutStats">
+        {aboutStats.map((stat, i) => {
+          const inner = (
+            <>
+              <span className="statNumber">{stat.number}</span>
+              <span className="statLabel">{stat.label}</span>
+            </>
+          );
+          return stat.link ? (
+            <a
+              key={i}
+              href={stat.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="statCard"
+            >
+              {inner}
+            </a>
+          ) : (
+            <div key={i} className="statCard">
+              {inner}
+            </div>
+          );
+        })}
       </div>
     </section>
   );

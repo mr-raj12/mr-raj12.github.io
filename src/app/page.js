@@ -15,7 +15,6 @@ import { useEffect } from "react";
 
 /**
  * Custom hook for scroll reveal animations
- * Uses Intersection Observer to animate elements when they enter viewport
  */
 function useScrollReveal() {
   useEffect(() => {
@@ -31,35 +30,24 @@ function useScrollReveal() {
       },
       {
         threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px",
+        rootMargin: "0px 0px -40px 0px",
       }
     );
 
-    revealElements.forEach((element) => {
-      observer.observe(element);
-    });
+    revealElements.forEach((element) => observer.observe(element));
 
     return () => {
-      revealElements.forEach((element) => {
-        observer.unobserve(element);
-      });
+      revealElements.forEach((element) => observer.unobserve(element));
     };
   }, []);
 }
 
-/**
- * Main Portfolio Page
- *
- * All data is managed in /src/config/portfolio.js
- * Edit that file to update your portfolio information.
- */
 export default function Home() {
   useScrollReveal();
 
   return (
-    <>
-      <Navbar />
-      <main>
+    <div className="page">
+      <main className="container">
         <Hero />
         <About />
         <Experience />
@@ -67,8 +55,9 @@ export default function Home() {
         <Achievements />
         <Skills />
         <Contact />
+        <Footer />
       </main>
-      <Footer />
-    </>
+      <Navbar />
+    </div>
   );
 }

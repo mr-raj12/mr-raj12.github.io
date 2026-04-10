@@ -1,54 +1,62 @@
 import { experiences } from "@/config/portfolio";
 
+function initials(company) {
+  const words = company.replace(/[–-]/g, " ").split(/\s+/).filter(Boolean);
+  if (words.length >= 2) return (words[0][0] + words[1][0]).toUpperCase();
+  return company.slice(0, 3);
+}
+
 export default function Experience() {
   return (
-    <section id="experience" className="section sectionAlt">
-      <div className="container">
-        <h2 className="sectionTitle reveal">Experience</h2>
-        <div className="experienceGrid">
-          {experiences.map((exp, index) => (
-            <div key={index} className="experienceCard reveal">
-              <div className="experienceHeader">
-                <div className="companyInfo">
-                  <h3>{exp.company}</h3>
-                  <span className="role">{exp.role}</span>
+    <section id="experience" className="section reveal">
+      <h2 className="sectionTitle">Experience</h2>
+      <div className="expList">
+        {experiences.map((exp, i) => (
+          <div key={i} className="expItem">
+            <div className="expBadge">{initials(exp.company)}</div>
+            <div className="expBody">
+              <div className="expHeader">
+                <div>
+                  <div className="expCompany">{exp.company}</div>
+                  <div className="expRole">{exp.role}</div>
                 </div>
                 {exp.duration && (
-                  <span className="duration">{exp.duration}</span>
-                )}
-                {exp.proofLink && (
-                  <a
-                    href={exp.proofLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="proofLink"
-                  >
-                    <i className="fas fa-external-link-alt"></i>{" "}
-                    {exp.githubLink ? "Live" : "View PRs"}
-                  </a>
-                )}
-                {exp.githubLink && (
-                  <a
-                    href={exp.githubLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="proofLink"
-                    style={{ marginLeft: "8px" }}
-                  >
-                    <i className="fab fa-github"></i> GitHub
-                  </a>
+                  <div className="expDuration">{exp.duration}</div>
                 )}
               </div>
-              {exp.type && <p className="experienceType">{exp.type}</p>}
-              {exp.tech && <p className="experienceTech">{exp.tech}</p>}
-              <ul className="experiencePoints">
-                {exp.points.map((point, i) => (
-                  <li key={i} dangerouslySetInnerHTML={{ __html: point }} />
+              {exp.type && <div className="expType">{exp.type}</div>}
+              {exp.tech && <div className="expTech">{exp.tech}</div>}
+              <ul className="expPoints">
+                {exp.points.map((point, j) => (
+                  <li key={j} dangerouslySetInnerHTML={{ __html: point }} />
                 ))}
               </ul>
+              {(exp.proofLink || exp.githubLink) && (
+                <div className="expLinks">
+                  {exp.proofLink && (
+                    <a
+                      href={exp.proofLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fas fa-external-link-alt"></i>{" "}
+                      {exp.githubLink ? "Live" : "View PRs"}
+                    </a>
+                  )}
+                  {exp.githubLink && (
+                    <a
+                      href={exp.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fab fa-github"></i> GitHub
+                    </a>
+                  )}
+                </div>
+              )}
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </section>
   );
