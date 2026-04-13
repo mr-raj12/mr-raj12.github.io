@@ -8,7 +8,7 @@
 export const siteConfig = {
   name: "Ankit Sisodya",
   initials: "AS",
-  title: "Ankit Sisodya | Portfolio",
+  title: "Ankit Sisodya",
   description:
     "Ankit Sisodya - Computer Science student at BIT Mesra, Competitive Programmer. Expert on Codeforces, Guardian on LeetCode.",
   tagline:
