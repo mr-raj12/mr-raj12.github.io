@@ -9,7 +9,7 @@ export default function About() {
           I&apos;m a <strong>Computer Science</strong> student at{" "}
           <strong>{education.institution}</strong> with a CGPA of{" "}
           <strong>{education.cgpa}</strong>. I love competitive programming,
-          contributing to open source, and shipping web apps that people
+          contributing to open source, and Shipping solutions that people
           actually use.
         </p>
         <p>
