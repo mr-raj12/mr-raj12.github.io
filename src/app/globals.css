@@ -170,21 +170,6 @@ strong {
     font-size: 1rem;
   }
 }
-
-.heroSubline {
-  color: var(--text-primary);
-  font-size: 0.9rem;
-  font-weight: 500;
-  margin-top: 8px;
-  font-style: italic;
-}
-
-@media (min-width: 640px) {
-  .heroSubline {
-    font-size: 1.05rem;
-  }
-}
-
 .heroResume {
   align-self: flex-end;
   color: var(--text-secondary);
