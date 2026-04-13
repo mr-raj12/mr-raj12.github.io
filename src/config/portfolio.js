@@ -80,7 +80,7 @@ export const navLinks = [
 ];
 
 export const aboutStats = [
-  { number: "100+", label: "Merged PRs" },
+  { number: "100+", label: "Merged PRs (Open Source)" },
   {
     number: "2k+",
     label: "Active Users (GSoC Espionage)",
@@ -103,6 +103,7 @@ export const experiences = [
     duration: "Feb 2026 – Present",
     type: "Remote • Open Source",
     tech: "PHP • Vue.js • TypeScript • GitHub Actions",
+    logo: "https://www.google.com/s2/favicons?domain=summerofcode.withgoogle.com&sz=128",
     proofLink: null,
     points: [
       "Selected as a <strong>Mentor for the GSoC 2026</strong> cohort to guide aspiring contributors through the application phase and project roadmap",
@@ -115,6 +116,7 @@ export const experiences = [
     duration: null,
     type: null,
     tech: "PHP • Vue.js • TypeScript • GitHub Actions",
+    logo: "https://www.google.com/s2/favicons?domain=omegaup.com&sz=128",
     proofLink:
       "https://github.com/omegaup/omegaup/pulls?q=is%3Amerged+is%3Apr+author%3AAnkitsinghsisodya+",
     points: [
@@ -131,6 +133,7 @@ export const experiences = [
     duration: "Dec 2024 – Aug 2025",
     type: "Remote • 9 months",
     tech: null,
+    logo: "/logos/tle-eliminator.jpeg",
     proofLink: null,
     points: [
       "Helped students understand and resolve DSA-related doubts by providing step-by-step explanations",

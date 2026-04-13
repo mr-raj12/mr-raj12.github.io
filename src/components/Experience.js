@@ -13,7 +13,13 @@ export default function Experience() {
       <div className="expList">
         {experiences.map((exp, i) => (
           <div key={i} className="expItem">
-            <div className="expBadge">{initials(exp.company)}</div>
+            <div className="expBadge">
+              {exp.logo ? (
+                <img src={exp.logo} alt={`${exp.company} logo`} />
+              ) : (
+                initials(exp.company)
+              )}
+            </div>
             <div className="expBody">
               <div className="expHeader">
                 <div>

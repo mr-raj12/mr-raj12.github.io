@@ -1,4 +1,4 @@
-import { aboutStats, codingProfiles, education } from "@/config/portfolio";
+import { aboutStats, education } from "@/config/portfolio";
 
 export default function About() {
   return (
@@ -6,19 +6,77 @@ export default function About() {
       <h2 className="sectionTitle">About</h2>
       <div className="sectionLead">
         <p>
-          I&apos;m a <strong>Computer Science</strong> student at{" "}
-          <strong>{education.institution}</strong> with a CGPA of{" "}
-          <strong>{education.cgpa}</strong>. I love competitive programming,
-          contributing to open source, and Shipping solutions that people
-          actually use.
+          An engineer, researcher, and open source contributor specializing in{" "}
+          <strong>Agentic</strong> and <strong>Distributed Systems</strong>.
         </p>
-        <p>
-          As an <strong>ICPC Asia West Regionalist</strong> and{" "}
-          <strong>GSoC&apos;26 Mentor</strong> for{" "}
-          <strong>omegaUp</strong> and <strong>OWASP</strong>, I pair
-          algorithmic depth with real-world software engineering. Along the way
-          I&apos;ve shipped <strong>100+ merged PRs</strong> across major OSS
-          projects and resolved <strong>700+ DSA queries</strong> as a mentor.
+        <p className="credLine">
+          <span className="cred">
+            <img
+              src="https://www.google.com/s2/favicons?domain=summerofcode.withgoogle.com&sz=64"
+              alt=""
+              aria-hidden="true"
+            />
+            <strong>GSoC 2026 Mentor</strong> at{" "}
+            <a
+              href="https://summerofcode.withgoogle.com/programs/2026/organizations/omegaup"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="credLink"
+            >
+              omegaUp
+            </a>{" "}
+            &amp;{" "}
+            <a
+              href="https://summerofcode.withgoogle.com/programs/2026/organizations/owasp-foundation"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="credLink"
+            >
+              OWASP
+            </a>
+          </span>
+          <span className="credDot" aria-hidden="true">·</span>
+          <a
+            className="cred"
+            href="https://codeforces.com/profile/Ankit_singh_sisodya"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://www.google.com/s2/favicons?domain=codeforces.com&sz=64"
+              alt=""
+              aria-hidden="true"
+            />
+            <strong>Expert</strong> on Codeforces
+          </a>
+          <span className="credDot" aria-hidden="true">·</span>
+          <a
+            className="cred"
+            href="https://leetcode.com/u/Ankit_singh_sisodya/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://cdn.simpleicons.org/leetcode/FFA116"
+              alt=""
+              aria-hidden="true"
+            />
+            <strong>Guardian</strong> on LeetCode
+          </a>
+          <span className="credDot" aria-hidden="true">·</span>
+          <a
+            className="cred"
+            href="https://www.codechef.com/users/Ankitsisodya"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://www.google.com/s2/favicons?domain=codechef.com&sz=64"
+              alt=""
+              aria-hidden="true"
+            />
+            <strong>5★</strong> on CodeChef
+          </a>
         </p>
       </div>
 
@@ -29,10 +87,7 @@ export default function About() {
         <div className="eduBody">
           <div className="eduInstitution">{education.institution}</div>
           <div className="eduDegree">{education.degree}</div>
-          <div className="eduMeta">
-            {education.duration} · {education.location}
-          </div>
-          <div className="eduCgpa">CGPA: {education.cgpa}</div>
+          <div className="eduMeta">{education.duration}</div>
         </div>
       </div>
 
@@ -62,20 +117,6 @@ export default function About() {
         })}
       </div>
 
-      <div className="codingProfiles">
-        {codingProfiles.map((profile, i) => (
-          <a
-            key={i}
-            href={profile.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="profileLink"
-          >
-            <span className="profilePlatform">{profile.platform}</span>
-            <span className="profileRating">{profile.rating}</span>
-          </a>
-        ))}
-      </div>
     </section>
   );
 }
