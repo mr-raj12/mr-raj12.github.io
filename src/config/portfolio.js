@@ -208,6 +208,13 @@ export const projects = [
 
 export const achievements = [
   {
+    rank: "Winner",
+    title: "BLT Mentor Warmup Hackathon",
+    desc: "Winner of the OWASP BLT Mentor Warmup Hackathon",
+    link: "https://hackathons.owaspblt.org/hackathon.html?slug=blt-mentor-warmup",
+    linkText: "View Hackathon",
+  },
+  {
     rank: "Regionalist",
     title: "ICPC Asia West 2025",
     desc: "ICPC Asia West Continent Regionalist 2025",
