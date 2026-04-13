@@ -172,7 +172,7 @@ export const projects = [
   {
     title: "GSoC Espionage",
     description:
-      "GitHub PR analytics app with merge rates, contributor stats, and activity timelines. Features branch filtering, data exports, and theme support.",
+      "GitHub PR analytics app with 2k+ active users which show merge rates, contributor stats, and activity timelines about any repo. Features branch filtering, data exports, GSoC 2026 organizations lists, and theme support.",
     icon: "fas fa-chart-line",
     tech: ["React", "TypeScript", "Vite", "GitHub API"],
     liveLink: "https://gsoc-espionage.vercel.app/",
