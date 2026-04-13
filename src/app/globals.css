@@ -854,7 +854,19 @@ a.cred:hover {
   z-index: 100;
 }
 
+.dockHighlight {
+  position: absolute;
+  border-radius: 999px;
+  background: rgba(34, 211, 238, 0.12);
+  pointer-events: none;
+  transition: left 0.3s ease, top 0.3s ease, width 0.3s ease,
+    height 0.3s ease, opacity 0.2s ease;
+  z-index: 0;
+}
+
 .dockItem {
+  position: relative;
+  z-index: 1;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -865,13 +877,16 @@ a.cred:hover {
   justify-content: center;
   color: var(--text-secondary);
   font-size: 0.95rem;
-  transition: transform var(--transition), color var(--transition), background var(--transition);
+  transition: transform var(--transition), color var(--transition);
 }
 
-.dockItem:hover {
+.dockItem:hover,
+.dockItem.isActive {
   transform: translateY(-3px);
-  color: var(--text);
-  background: var(--surface-hover);
+}
+
+.dockItem.isActive {
+  border-color: currentColor;
 }
 
 .dockItemText {
