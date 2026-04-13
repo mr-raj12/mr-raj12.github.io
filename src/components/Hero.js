@@ -10,6 +10,7 @@ export default function Hero() {
         <div className="heroText">
           <p className="heroName">Hey, I&apos;m {siteConfig.name.split(" ")[0]}</p>
           <p className="heroTagline">{siteConfig.tagline}</p>
+          <p className="heroSubline">Shipping solutions that people actually use.</p>
         </div>
       </div>
       <a
