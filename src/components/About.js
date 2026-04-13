@@ -1,4 +1,4 @@
-import { aboutStats, education } from "@/config/portfolio";
+import { aboutStats, codingProfiles, education } from "@/config/portfolio";
 
 export default function About() {
   return (
@@ -58,6 +58,21 @@ export default function About() {
             </div>
           );
         })}
+      </div>
+
+      <div className="codingProfiles">
+        {codingProfiles.map((profile, i) => (
+          <a
+            key={i}
+            href={profile.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="profileLink"
+          >
+            <span className="profilePlatform">{profile.platform}</span>
+            <span className="profileRating">{profile.rating}</span>
+          </a>
+        ))}
       </div>
     </section>
   );
