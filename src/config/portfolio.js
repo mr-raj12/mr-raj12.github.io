@@ -12,7 +12,7 @@ export const siteConfig = {
   description:
     "Ankit Sisodya - Computer Science student at BIT Mesra, Competitive Programmer, and Full-Stack Developer. Expert on Codeforces, Guardian on LeetCode.",
   tagline:
-    "Upcoming Google Intern • GSoC Mentor 2026 • Competitive Programmer • Full-Stack Developer • Open Source Contributor",
+    "Upcoming Google Intern • GSoC Mentor 2026 • Codeforces Expert • LeetCode Guardian • CodeChef 5-Star • Full-Stack Developer • Open Source Contributor",
   resumeLink:
     "https://drive.google.com/file/d/17nsuQmwnG-FZNcWGhAJ-VehEWinyuTfQ/view",
 };
@@ -88,7 +88,6 @@ export const navLinks = [
 
 export const aboutStats = [
   { number: "100+", label: "Merged PRs" },
-  { number: "704", label: "DSA Queries Resolved" },
   {
     number: "2k+",
     label: "Active Users (GSoC Espionage)",
