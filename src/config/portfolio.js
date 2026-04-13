@@ -19,7 +19,6 @@ export const siteConfig = {
 
 export const contactInfo = {
   email: "ankitsingh24012005@gmail.com",
-  phone: "+91 7667144864",
 };
 
 export const socialLinks = [
@@ -46,12 +45,6 @@ export const socialLinks = [
     url: "mailto:ankitsingh24012005@gmail.com",
     icon: "fas fa-envelope",
     label: "Email",
-  },
-  {
-    platform: "phone",
-    url: "tel:+917667144864",
-    icon: "fas fa-phone",
-    label: "Phone",
   },
 ];
 

@@ -18,13 +18,6 @@ export default function Contact() {
           <i className="fas fa-envelope contactIcon"></i>
           <span>{contactInfo.email}</span>
         </a>
-        <a
-          href={`tel:${contactInfo.phone.replace(/\s/g, "")}`}
-          className="contactRow"
-        >
-          <i className="fas fa-phone contactIcon"></i>
-          <span>{contactInfo.phone}</span>
-        </a>
       </div>
     </section>
   );
