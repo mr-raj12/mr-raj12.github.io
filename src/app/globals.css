@@ -740,6 +740,12 @@ strong {
   background: var(--surface-hover);
 }
 
+.dockItemText {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
 .dockSep {
   width: 1px;
   height: 24px;

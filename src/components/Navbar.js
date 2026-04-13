@@ -1,7 +1,18 @@
-import { contactInfo, siteConfig, socialLinks } from "@/config/portfolio";
+import {
+  codingProfiles,
+  contactInfo,
+  siteConfig,
+  socialLinks,
+} from "@/config/portfolio";
 
 // Order: Home, Resume, Email, GitHub, LinkedIn, Twitter
 const dockOrder = ["github", "linkedin", "twitter", "email"];
+
+const profileAbbr = {
+  Codeforces: "CF",
+  LeetCode: "LC",
+  CodeChef: "CC",
+};
 
 export default function Navbar() {
   const byPlatform = Object.fromEntries(
@@ -39,6 +50,20 @@ export default function Navbar() {
           </a>
         );
       })}
+      <span className="dockSep" aria-hidden="true"></span>
+      {codingProfiles.map((profile) => (
+        <a
+          key={profile.platform}
+          href={profile.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="dockItem dockItemText"
+          aria-label={profile.platform}
+          title={`${profile.platform} — ${profile.rating}`}
+        >
+          {profileAbbr[profile.platform] || profile.platform.slice(0, 2)}
+        </a>
+      ))}
     </nav>
   );
 }
