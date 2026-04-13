@@ -1,11 +1,18 @@
+import Image from "next/image";
 import { siteConfig } from "@/config/portfolio";
 
 export default function Hero() {
   return (
     <section id="home" className="hero">
       <div className="heroMain">
-        <div className="heroAvatar" aria-hidden="true">
-          {siteConfig.initials}
+        <div className="heroAvatar">
+          <Image
+            src="/avatar.jpg"
+            alt={siteConfig.name}
+            width={150}
+            height={150}
+            priority
+          />
         </div>
         <div className="heroText">
           <p className="heroName">Hey, I&apos;m {siteConfig.name.split(" ")[0]}</p>
