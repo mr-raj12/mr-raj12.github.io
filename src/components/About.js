@@ -13,10 +13,12 @@ export default function About() {
           actually use.
         </p>
         <p>
-          As an <strong>ICPC Asia West Regionalist</strong> with{" "}
-          <strong>100+ merged PRs</strong> across major OSS projects, I pair
+          As an <strong>ICPC Asia West Regionalist</strong> and{" "}
+          <strong>GSoC&apos;26 Mentor</strong> for{" "}
+          <strong>omegaUp</strong> and <strong>OWASP</strong>, I pair
           algorithmic depth with real-world software engineering. Along the way
-          I&apos;ve resolved <strong>700+ DSA queries</strong> as a mentor.
+          I&apos;ve shipped <strong>100+ merged PRs</strong> across major OSS
+          projects and resolved <strong>700+ DSA queries</strong> as a mentor.
         </p>
       </div>
 
