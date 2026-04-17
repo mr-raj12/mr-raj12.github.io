@@ -36,7 +36,7 @@ export const socialLinks = [
   },
   {
     platform: "twitter",
-    url: "https://x.com/Ankit_Sisodya",
+    url: "https://x.com/Ankitsisodya",
     icon: "fab fa-x-twitter",
     label: "X (Twitter)",
   },
