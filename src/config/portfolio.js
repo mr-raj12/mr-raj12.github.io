@@ -97,6 +97,18 @@ export const education = {
 
 export const experiences = [
   {
+    company: "Google Summer of Code 2026",
+    role: "Open Source Developer – Python Software Foundation",
+    duration: "May 2026 – Sep 2026",
+    type: "Remote • Active",
+    tech: "Python • BorgBackup • C",
+    logo: "https://www.google.com/s2/favicons?domain=summerofcode.withgoogle.com&sz=128",
+    proofLink: "https://summerofcode.withgoogle.com/programs/2026/organizations/python-software-foundation",
+    points: [
+      "Project: <strong>Borgbackup Pack Files for borg2</strong> implementing pack file support for the next-generation borg2 storage backend",
+    ],
+  },
+  {
     company: "Klyrax Labs",
     role: "Associate Software Engineer",
     duration: "Dec 2025 – Present",

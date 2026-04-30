@@ -1,11 +1,4 @@
-import Image from "next/image";
-import { aboutStats, codingProfiles, education } from "@/config/portfolio";
-
-const profileIcons = {
-  codeforces: "https://www.google.com/s2/favicons?domain=codeforces.com&sz=64",
-  leetcode: "https://cdn.simpleicons.org/leetcode/FFA116",
-  codechef: "https://www.google.com/s2/favicons?domain=codechef.com&sz=64",
-};
+import { aboutStats, education } from "@/config/portfolio";
 
 export default function About() {
   return (
@@ -15,43 +8,6 @@ export default function About() {
         <p>
           An engineer and open source contributor specializing in{" "}
           <strong>AI Systems</strong> and <strong>Full-Stack Development</strong>.
-        </p>
-        <p className="credLine">
-          <a
-            className="cred"
-            href="https://www.ycombinator.com/startupschool"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="https://www.google.com/s2/favicons?domain=ycombinator.com&sz=64"
-              alt=""
-              aria-hidden="true"
-              width={16}
-              height={16}
-            />
-            <strong>Y Combinator</strong> Startup School
-          </a>
-          {/* {codingProfiles.map((profile, i) => (
-            <span key={i} style={{ display: "contents" }}>
-              <span className="credDot" aria-hidden="true">·</span>
-              <a
-                className="cred"
-                href={profile.url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src={profileIcons[profile.className]}
-                  alt=""
-                  aria-hidden="true"
-                  width={16}
-                  height={16}
-                />
-                <strong>{profile.rating.split(" • ")[0]}</strong> on {profile.platform}
-              </a>
-            </span>
-          ))} */}
         </p>
       </div>
 
@@ -65,6 +21,26 @@ export default function About() {
           <div className="eduMeta">{education.duration}</div>
         </div>
       </div>
+
+      <a
+        href="https://www.ycombinator.com/startupschool"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="eduCard"
+        style={{ textDecoration: "none", color: "inherit" }}
+      >
+        <div className="eduIcon" aria-hidden="true" style={{ background: "rgba(255,102,0,0.12)" }}>
+          <img
+            src="https://www.google.com/s2/favicons?domain=ycombinator.com&sz=64"
+            alt="Y Combinator"
+            style={{ width: 22, height: 22, objectFit: "contain", borderRadius: 4 }}
+          />
+        </div>
+        <div className="eduBody">
+          <div className="eduInstitution">Y Combinator</div>
+          <div className="eduDegree">Startup School</div>
+        </div>
+      </a>
 
       <div className="aboutStats">
         {aboutStats.map((stat, i) => {

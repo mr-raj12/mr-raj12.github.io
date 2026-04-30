@@ -1,4 +1,4 @@
-# 🚀 Ankit Sisodya | Portfolio
+# Mrityunjay Raj | Portfolio
 
 A modern, responsive portfolio website built with **Next.js 16** featuring a sleek dark theme, glassmorphism effects, and smooth animations.
 
@@ -6,16 +6,16 @@ A modern, responsive portfolio website built with **Next.js 16** featuring a sle
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## ✨ Features
+## Features
 
-- 🌙 **Dark Theme** with glassmorphism and gradient effects
-- 📱 **Fully Responsive** - Mobile, tablet, and desktop optimized
-- ⚡ **Fast Performance** - Built with Next.js App Router
-- 🎯 **Modular Architecture** - Separate components and centralized config
-- 🎨 **Smooth Animations** - Scroll reveal effects using Intersection Observer
-- 🔗 **Dynamic Content** - Easy to update via single config file
+- **Dark Theme** with glassmorphism and gradient effects
+- **Fully Responsive** — Mobile, tablet, and desktop optimized
+- **Fast Performance** — Built with Next.js App Router
+- **Modular Architecture** — Separate components and centralized config
+- **Smooth Animations** — Scroll reveal effects using Intersection Observer
+- **Dynamic Content** — Easy to update via single config file
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** Next.js 16 (App Router)
 - **Language:** JavaScript/React
@@ -23,7 +23,7 @@ A modern, responsive portfolio website built with **Next.js 16** featuring a sle
 - **Icons:** Font Awesome 6
 - **Font:** Inter (Google Fonts)
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
@@ -42,10 +42,10 @@ src/
 │   ├── Contact.js       # Contact info
 │   └── Footer.js        # Footer
 └── config/
-    └── portfolio.js     # ⭐ All portfolio data
+    └── portfolio.js     # All portfolio data — edit this to update content
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -56,10 +56,10 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/Ankitsinghsisodya/Ankitsisodya.git
+git clone https://github.com/mr-raj12/mr-raj12.github.io.git
 
 # Navigate to project
-cd Ankitsisodya
+cd mr-raj12.github.io
 
 # Install dependencies
 npm install
@@ -70,7 +70,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## ⚙️ Customization
+## Customization
 
 All portfolio content is managed in a single file: `src/config/portfolio.js`
 
@@ -95,7 +95,6 @@ export const projects = [
     liveLink: "https://...",
     githubLink: "https://...",
   },
-  // ...
 ];
 ```
 
@@ -109,12 +108,12 @@ export const achievements = [
     desc: "Description",
     link: "https://proof-link",
   },
-  // ...
 ];
 ```
 
-- **GitHub:** [@Ankitsinghsisodya](https://github.com/Ankitsinghsisodya)
-- **LinkedIn:** [Ankit Sisodya](https://www.linkedin.com/in/ankit-sisodya)
-- **Codeforces:** [Expert (1776)](https://codeforces.com/profile/Ankit_singh_sisodya)
-- **LeetCode:** [Guardian (2216)](https://leetcode.com/u/Ankit_singh_sisodya/)
+## Contact
 
+- **GitHub:** [@mr-raj12](https://github.com/mr-raj12)
+- **LinkedIn:** [Mrityunjay Raj](https://www.linkedin.com/in/mrityunjay-raj/)
+- **Email:** mr.raj.earth@gmail.com
+- **Website:** [mrraj.dev](https://mrraj.dev)
