@@ -80,7 +80,7 @@ export const navLinks = [
 ];
 
 export const aboutStats = [
-  { number: "75+", label: "Merged PRs (Open Source)" },
+  { number: "75+", label: "Merged PRs (Open Source)", link: "https://github.com/search?q=is%3Apr+author%3Amr-raj12+is%3Amerged&type=pullrequests" },
   {
     number: "2k+",
     label: "Active Users (GSoC Espionage)",
