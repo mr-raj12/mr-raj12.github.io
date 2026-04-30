@@ -11,14 +11,16 @@ export default function Achievements() {
             <div className="achBody">
               <div className="achTitle">{a.title}</div>
               <div className="achDesc">{a.desc}</div>
-              <a
-                href={a.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="achLink"
-              >
-                {a.linkText} →
-              </a>
+              {a.link && (
+                <a
+                  href={a.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="achLink"
+                >
+                  {a.linkText} →
+                </a>
+              )}
             </div>
           </div>
         ))}

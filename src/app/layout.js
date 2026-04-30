@@ -11,11 +11,14 @@ export const metadata = {
   title: siteConfig.title,
   description: siteConfig.description,
   keywords: [
-    "Ankit Sisodya",
+    "Mrityunjay Raj",
     "Portfolio",
-    "Competitive Programming",
+    "AI Engineer",
     "Full Stack Developer",
+    "Open Source Contributor",
     "BIT Mesra",
+    "BorgBackup",
+    "Hackathon",
   ],
   authors: [{ name: siteConfig.name }],
 };

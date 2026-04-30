@@ -6,43 +6,43 @@
  */
 
 export const siteConfig = {
-  name: "Ankit Sisodya",
-  initials: "AS",
-  title: "Ankit Sisodya",
+  name: "Mrityunjay Raj",
+  initials: "MR",
+  title: "Mrityunjay Raj",
   description:
-    "Ankit Sisodya - Computer Science student at BIT Mesra, Competitive Programmer. Expert on Codeforces, Guardian on LeetCode.",
+    "Mrityunjay Raj - Computer Science student at BIT Mesra, 5x Hackathon Winner, AI Engineer, Open Source Contributor.",
   tagline:
-    "Upcoming Google Intern • GSoC Mentor 2026 • Open Source Contributor",
+    "CSE • BIT Mesra • AI Engineer • 5x Hackathon Winner",
   resumeLink:
-    "https://drive.google.com/file/d/17nsuQmwnG-FZNcWGhAJ-VehEWinyuTfQ/view",
+    "https://drive.google.com/file/d/15WgBVmarlHjF76NDsubvpdaAJWCaWO9e/view",
 };
 
 export const contactInfo = {
-  email: "ankitsingh24012005@gmail.com",
+  email: "mr.raj.earth@gmail.com",
 };
 
 export const socialLinks = [
   {
     platform: "github",
-    url: "https://github.com/Ankitsinghsisodya",
+    url: "https://github.com/mr-raj12",
     icon: "fab fa-github",
     label: "GitHub",
   },
   {
     platform: "linkedin",
-    url: "https://www.linkedin.com/in/ankit-sisodya-507b99267/",
+    url: "https://www.linkedin.com/in/mrityunjay-raj/",
     icon: "fab fa-linkedin-in",
     label: "LinkedIn",
   },
   {
     platform: "twitter",
-    url: "https://x.com/Ankitsisodya",
+    url: "https://x.com/mr_raj_earth",
     icon: "fab fa-x-twitter",
     label: "X (Twitter)",
   },
   {
     platform: "email",
-    url: "mailto:ankitsingh24012005@gmail.com",
+    url: "mailto:mr.raj.earth@gmail.com",
     icon: "fas fa-envelope",
     label: "Email",
   },
@@ -51,20 +51,20 @@ export const socialLinks = [
 export const codingProfiles = [
   {
     platform: "Codeforces",
-    rating: "Expert • 1776",
-    url: "https://codeforces.com/profile/Ankit_singh_sisodya",
+    rating: "Pupil • 1225",
+    url: "https://codeforces.com/profile/mr_raj12",
     className: "codeforces",
   },
   {
     platform: "LeetCode",
-    rating: "Guardian • 2216",
-    url: "https://leetcode.com/u/Ankit_singh_sisodya/",
+    rating: "Specialist • 1556",
+    url: "https://leetcode.com/u/mr_raj12/",
     className: "leetcode",
   },
   {
     platform: "CodeChef",
-    rating: "5-Star • 2004",
-    url: "https://www.codechef.com/users/Ankitsisodya",
+    rating: "1-Star • 1376",
+    url: "https://www.codechef.com/users/mr_raj12",
     className: "codechef",
   },
 ];
@@ -80,93 +80,101 @@ export const navLinks = [
 ];
 
 export const aboutStats = [
-  { number: "100+", label: "Merged PRs (Open Source)" },
+  { number: "75+", label: "Merged PRs (Open Source)" },
   {
     number: "2k+",
     label: "Active Users (GSoC Espionage)",
-    link: "https://gsoc-espionage.vercel.app/",
+    link: "https://gsoc.app/",
   },
 ];
 
 export const education = {
   institution: "Birla Institute of Technology, Mesra",
   degree: "B.Tech in Computer Science",
-  duration: "September 2023 – April 2027",
-  location: "Ranchi, Jharkhand",
-  cgpa: "8.42",
+  duration: "September 2023 – July 2027",
+  cgpa: "8.22",
 };
 
 export const experiences = [
   {
-    company: "Google Summer of Code – omegaUp",
-    role: "Mentor",
-    duration: "Feb 2026 – Present",
-    type: "Remote • Open Source",
-    tech: "PHP • Vue.js • TypeScript • GitHub Actions",
-    logo: "https://www.google.com/s2/favicons?domain=summerofcode.withgoogle.com&sz=128",
-    proofLink: null,
-    points: [
-      "Selected as a <strong>Mentor for the GSoC 2026</strong> cohort to guide aspiring contributors through the application phase and project roadmap",
-      "Reviewing pull requests and providing technical feedback to improve code quality and adherence to repository standards",
-    ],
-  },
-  {
-    company: "OmegaUp",
-    role: "Open Source Contributor",
-    duration: null,
-    type: null,
-    tech: "PHP • Vue.js • TypeScript • GitHub Actions",
-    logo: "https://www.google.com/s2/favicons?domain=omegaup.com&sz=128",
-    proofLink:
-      "https://github.com/omegaup/omegaup/pulls?q=is%3Amerged+is%3Apr+author%3AAnkitsinghsisodya+",
-    points: [
-      "Authored and got 38 merged pull requests, driving core feature development and architectural modernizations for the platform",
-      "Engineered a full-stack User Comparison module (PHP/Vue.js) with Nginx routing and TypeScript bindings (<a href='https://github.com/omegaup/omegaup/pull/8678' target='_blank'>#8678</a>)",
-      "Modernized the global notification system, migrating from legacy jQuery to a scalable Vue.js architecture (<a href='https://github.com/omegaup/omegaup/pull/8670' target='_blank'>#8670</a>)",
-      "Enhanced omegaUp's user insights by shipping the \"Profile Statistics\" feature(<a href='https://github.com/omegaup/omegaup/pull/8712' target='_blank'>#8712</a>)",
-      "Add workflow to check PR linked issues and assignees (<a href='https://github.com/omegaup/omegaup/pull/8621' target='_blank'>#8621</a>)",
-    ],
-  },
-  {
-    company: "TLE Eliminator",
-    role: "Intern",
-    duration: "Dec 2024 – Aug 2025",
-    type: "Remote • 9 months",
+    company: "Klyrax Labs",
+    role: "Associate Software Engineer",
+    duration: "Dec 2025 – Present",
+    type: "Remote • Part-time",
     tech: null,
-    logo: "/logos/tle-eliminator.jpeg",
-    proofLink: null,
+    logo: "/logos/klyrax_labs_logo.jpg",
+    proofLink: "https://www.linkedin.com/in/mrityunjay-raj/",
     points: [
-      "Helped students understand and resolve DSA-related doubts by providing step-by-step explanations",
-      "Guided students in <strong>preparing for competitive coding challenges</strong>, focusing on techniques and strategies",
-      'Resolved <strong>704 DSA queries</strong> in 9 months and earned the <strong>"Top Mentor"</strong> appreciation for four consecutive weeks',
+      "Contributing to product development and engineering initiatives as an Associate Software Engineer",
+    ],
+  },
+  {
+    company: "Open Source Contributor",
+    role: "BorgBackup • BorgBase • OSSF",
+    duration: "Dec 2025 – Present",
+    type: "Remote • 50+ Pull Requests",
+    tech: "Python • CI/CD • GitHub Actions",
+    logo: "/logos/borg.png",
+    proofLink:
+      "https://github.com/borgbackup/borg/pulls?q=is%3Amerged+is%3Apr+author%3Amr-raj12",
+    points: [
+      "<strong>BorgBackup (Borg):</strong> Authored 33 PRs optimizing CI/CD pipelines, Python 3.12 compatibility, and resolving complex timezone bugs",
+      "<strong>BorgBase (Vorta):</strong> Authored 16 PRs optimizing CI/CD pipelines, Python 3.12 compatibility, and resolving complex timezone bugs, completing 2 full projects",
+      "<strong>OSSF (CVE Binary Tool):</strong> Resolved critical Windows crash loops involving sqlite3 databases via filesystem optimizations",
+    ],
+  },
+  {
+    company: "EkamApps (Turrant AI)",
+    role: "AI Engineering Intern",
+    duration: "Oct 2025 – Jan 2026",
+    type: "Remote • 4 months",
+    tech: "Python • FastAPI • Next.js • PostgreSQL • REST APIs • Supabase",
+    logo: "/logos/ekamapps.jpg",
+    proofLink: "https://turrant.ai",
+    points: [
+      "Engineered a scalable RESTful API suite and credit-based billing microservice, successfully handling <strong>500+ concurrent transactions</strong> using Node.js and FastAPI",
+      "Architected a multi-tenant notification system across WhatsApp, email, and web portals using an event-driven architecture with message queuing",
+      "Optimized PostgreSQL schemas (<strong>118+ tables</strong>) via advanced query tuning and indexing, improving OCR accuracy by 25%",
     ],
   },
   {
     company: "BITAcademia",
     role: "SDE Intern",
-    duration: "Aug 2025 – Present",
+    duration: "July 2025 – Present",
     type: "Birla Institute of Technology, Mesra",
     tech: "React • Node.js • MongoDB • Express",
+    logo: "https://www.google.com/s2/favicons?domain=bitmesra.ac.in&sz=128",
     proofLink: "http://139.167.188.221:3000",
     githubLink: "https://github.com/BitWebApp/BitWebApp-24",
     points: [
       "Developed features for the official academic platform to streamline academic management for students, faculty, and administration",
       "Contributed to building a comprehensive system for managing academic workflows at BIT Mesra",
-      "Developed the entire summer module for the official academic platform role based access",
     ],
   },
   {
-    company: "Adventure Booking Platform",
-    role: "Freelance Developer",
-    duration: null,
-    type: "Freelance Project",
-    tech: "React.js • Express.js • Redis • Socket.IO • PayPal API",
-    proofLink: "https://booking-web-bay.vercel.app/",
-    githubLink:
-      "https://github.com/Adnan2k5/Booking-Web/commits?author=Ankitsinghsisodya",
+    company: "PromptCue",
+    role: "SDE Intern",
+    duration: "Jan 2025 – Jun 2025",
+    type: "Remote • 6 months",
+    tech: "Node.js • Next.js • Redis • PostgreSQL",
+    logo: "/logos/promptcue.png",
+    proofLink: "https://www.linkedin.com/in/mrityunjay-raj/",
     points: [
-      "Engineered a data-driven <strong>gamification system</strong> that aggregates user activity to track and award instructor achievements, integrated directly into the <strong>PayPal</strong> service to trigger milestones upon payment completion",
-      "Enhanced backend reliability by implementing centralized <strong>error handling middleware</strong> and refactoring authentication logic to optimize password recovery and data validation workflows",
+      "Built an AI aggregator platform integrating LLMs, MCP tools, local file systems, and image generation APIs using Node.js and Next.js",
+      "Implemented multi-model support enabling seamless switching between Gemini, GPT, Claude, and other LLMs through a unified interface",
+      "Reduced model inference latency by <strong>30%</strong> by implementing Redis caching strategies and asynchronous processing queues",
+    ],
+  },
+  {
+    company: "ScrapGenie",
+    role: "SDE Intern",
+    duration: "Dec 2024 – Jan 2025",
+    type: "Remote • 2 months",
+    tech: null,
+    logo: "/logos/scrapgenie.jpg",
+    proofLink: "https://www.linkedin.com/in/mrityunjay-raj/",
+    points: [
+      "Contributed to software development initiatives enhancing operational efficiency and scalability for an innovative scrap recycling platform",
     ],
   },
 ];
@@ -175,96 +183,56 @@ export const projects = [
   {
     title: "GSoC Espionage",
     description:
-      "GitHub PR analytics app with 2k+ active users which show merge rates, contributor stats, and activity timelines about any repo. Features branch filtering, data exports, GSoC 2026 organizations lists, and theme support.",
+      "GitHub PR analytics dashboard with 1.4k+ active users visualizing merge rates, contributor stats, and activity timelines for any repository. Features branch filtering, customizable time ranges, CSV/JSON data exports, GSoC 2026 organization lists, and theme support.",
     icon: "fas fa-chart-line",
     tech: ["React", "TypeScript", "Vite", "GitHub API"],
-    liveLink: "https://gsoc-espionage.vercel.app/",
+    liveLink: "https://gsoc.app/",
     githubLink: "https://github.com/Ankitsinghsisodya/Gsoc-espionage",
-  },
-
-  {
-    title: "SlotSwapper",
-    description:
-      "Collaborative calendar application for real-time schedule management and atomic slot swapping with WebSocket notifications.",
-    icon: "fas fa-calendar-alt",
-    tech: ["React", "Node.js", "PostgreSQL", "Prisma", "WebSocket", "Docker"],
-    liveLink: "https://slotswapper-ss.vercel.app/",
-    githubLink: "https://github.com/Ankitsinghsisodya/SlotSwapper",
-  },
-  {
-    title: "Test Case Generator",
-    description:
-      "AI-powered SaaS using Gemini API to automate test case generation with Razorpay subscription handling, deployed on AWS EC2.",
-    icon: "fas fa-robot",
-    tech: ["Next.js", "TypeScript", "Gemini API", "Docker", "AWS", "Nginx"],
-    liveLink: "https://test-case-generator-two.vercel.app/",
-    githubLink: "https://github.com/Ankitsinghsisodya/test-case-generator",
   },
 ];
 
 export const achievements = [
   {
-    rank: "Regionalist",
-    title: "ICPC Asia West 2025",
-    desc: "ICPC Asia West Continent Regionalist 2025",
-    link: "https://icpc.global/ICPCID/XGJW19PMRAEV",
-    linkText: "View Profile",
+    rank: "Tech Lead",
+    title: "Pantheon'25 – HackQuest'25",
+    desc: "Technical Lead managing infrastructure for 4000+ visitors and spearheading the HackQuest'25 hackathon for 1200+ participants",
+    link: "https://pantheon25.com/",
+    linkText: "pantheon25.com",
   },
   {
-    rank: "AIR 505",
-    title: "Meta Hacker Cup 2024",
-    desc: "All India Rank 505 in Meta Hacker Cup organized by Meta",
-    link: "https://www.facebook.com/codingcompetitions/hacker-cup/2024/certificate/1029241675873927",
-    linkText: "View Certificate",
+    rank: "Core Dev",
+    title: "BITOTSAV",
+    desc: "Core Developer building a QR-based ticketing system for 5000+ attendees, boosting event engagement by 40%",
+    link: "https://bitotsav.bitmesra.ac.in/",
+    linkText: "bitotsav.bitmesra.ac.in",
   },
   {
-    rank: "Winner",
-    title: "BLT Mentor Warmup Hackathon",
-    desc: "Winner of the OWASP BLT Mentor Warmup Hackathon",
-    link: "https://hackathons.owaspblt.org/hackathon.html?slug=blt-mentor-warmup",
-    linkText: "View Hackathon",
+    rank: "Coordinator",
+    title: "UNESQUO & SPIC MACAY",
+    desc: "Technical Coordinator ensuring 99.9% uptime for web platforms during cultural and musical events",
+    link: "http://unesquo.in/",
+    linkText: "unesquo.in",
   },
   {
-    rank: "Rank 7",
-    title: "Codewars by IIT Dhanbad",
-    desc: "Secured Rank 7 among 1000+ participants",
-    link: "https://practice.geeksforgeeks.org/contest/codewars-by-c3/leaderboard",
-    linkText: "View Leaderboard",
+    rank: "2nd Place",
+    title: "HACKATRON – BIT Sindri",
+    desc: "Secured 2nd place with an innovative Stocks Portfolio Manager solution at HACKATRON",
+    link: "https://www.linkedin.com/posts/vaibhav-anand-singh-412604299_teamosiris-hackathon-hackatron-ugcPost-7357728905987788800-T3L3",
+    linkText: "View Post",
   },
   {
-    rank: "GR 179",
-    title: "Codeforces Round 962 (Div. 3)",
-    desc: "Global Rank 179 among 60,000+ participants",
-    link: "https://codeforces.com/contest/1996/standings/participant/187434533#p187434533",
-    linkText: "View Standing",
+    rank: "PPI Offer",
+    title: "HACKFEST – IIT ISM Dhanbad",
+    desc: "Received Pre-Placement Interview (PPI) offer from ILNB Services at HACKFEST by IIT ISM Dhanbad",
+    link: "https://www.linkedin.com/posts/vaibhav-anand-singh-412604299_hackfest25-fintech-ai-ugcPost-7317647847674298386-bCB4",
+    linkText: "View Post",
   },
   {
-    rank: "GR 530",
-    title: "Codeforces Round 982 (Div. 2)",
-    desc: "Global Rank 530 among 24,000+ participants",
-    link: "https://codeforces.com/contest/2027/standings/participant/195174316#p195174316",
-    linkText: "View Standing",
-  },
-  {
-    rank: "GR 16",
-    title: "Cook-a-Code by IIIT Vadodara",
-    desc: "Global Rank 16 in team competition",
-    link: "https://codeforces.com/gym/565997/standings",
-    linkText: "View Standing",
-  },
-  {
-    rank: "GR 344",
-    title: "LeetCode Biweekly 145",
-    desc: "Global Rank 344 among 23,596 participants",
-    link: "https://leetcode.com/contest/biweekly-contest-145/ranking/?region=global_v2",
-    linkText: "View Ranking",
-  },
-  {
-    rank: "GR 50",
-    title: "CodeChef Starters 174",
-    desc: "Global Rank 50 in CodeChef Starters",
-    link: "https://www.codechef.com/rankings/START174B?itemsPerPage=100&order=asc&page=1&sortBy=rank",
-    linkText: "View Ranking",
+    rank: "1st Place",
+    title: "CICADA-CTF",
+    desc: "Secured 1st place in CICADA-CTF and won the no-monitor contest in Blind Coding competition",
+    link: null,
+    linkText: null,
   },
 ];
 
@@ -272,7 +240,7 @@ export const skillCategories = [
   {
     title: "Languages",
     icon: "fas fa-code",
-    skills: ["C++", "Python", "JavaScript", "TypeScript", "HTML", "CSS"],
+    skills: ["C", "C++", "Java", "Python", "JavaScript", "TypeScript", "HTML/CSS", "SQL", "Solidity"],
   },
   {
     title: "Web Development",
@@ -280,28 +248,25 @@ export const skillCategories = [
     skills: [
       "React",
       "Next.js",
-      "Express.js",
-      "Hono",
-      "Vite",
+      "Node.js",
+      "GraphQL",
+      "REST APIs",
+      "WebSockets",
       "Prisma",
-      "NextAuth",
-      "WebSocket",
-      "WebRTC",
       "Supabase",
       "Appwrite",
     ],
   },
   {
-    title: "Databases & Infrastructure",
+    title: "Databases & Cloud",
     icon: "fas fa-database",
     skills: [
       "PostgreSQL",
-      "NeonDB",
       "MongoDB",
       "Redis",
       "Docker",
       "AWS",
-      "Cloudflare",
+      "GCP",
       "Nginx",
       "CI/CD",
     ],
@@ -309,6 +274,6 @@ export const skillCategories = [
   {
     title: "Tools",
     icon: "fas fa-tools",
-    skills: ["Git", "GitHub", "Postman", "Vercel", "Cloudinary", "Render"],
+    skills: ["Git", "GitHub", "VS Code", "Postman", "Firebase", "Vercel", "Cloudinary", "Render"],
   },
 ];

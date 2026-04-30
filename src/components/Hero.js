@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="heroMain">
         <div className="heroAvatar">
           <Image
-            src="/avatar.jpg"
+            src="/avatar.jpeg"
             alt={siteConfig.name}
             width={150}
             height={150}

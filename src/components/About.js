@@ -1,4 +1,11 @@
-import { aboutStats, education } from "@/config/portfolio";
+import Image from "next/image";
+import { aboutStats, codingProfiles, education } from "@/config/portfolio";
+
+const profileIcons = {
+  codeforces: "https://www.google.com/s2/favicons?domain=codeforces.com&sz=64",
+  leetcode: "https://cdn.simpleicons.org/leetcode/FFA116",
+  codechef: "https://www.google.com/s2/favicons?domain=codechef.com&sz=64",
+};
 
 export default function About() {
   return (
@@ -6,77 +13,45 @@ export default function About() {
       <h2 className="sectionTitle">About</h2>
       <div className="sectionLead">
         <p>
-          An engineer, researcher, and open source contributor specializing in{" "}
-          <strong>Agentic</strong> and <strong>Distributed Systems</strong>.
+          An engineer and open source contributor specializing in{" "}
+          <strong>AI Systems</strong> and <strong>Full-Stack Development</strong>.
         </p>
         <p className="credLine">
-          <span className="cred">
-            <img
-              src="https://www.google.com/s2/favicons?domain=summerofcode.withgoogle.com&sz=64"
-              alt=""
-              aria-hidden="true"
-            />
-            <strong>GSoC 2026 Mentor</strong> at{" "}
-            <a
-              href="https://summerofcode.withgoogle.com/programs/2026/organizations/omegaup"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="credLink"
-            >
-              omegaUp
-            </a>{" "}
-            &amp;{" "}
-            <a
-              href="https://summerofcode.withgoogle.com/programs/2026/organizations/owasp-foundation"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="credLink"
-            >
-              OWASP
-            </a>
-          </span>
-          <span className="credDot" aria-hidden="true">·</span>
           <a
             className="cred"
-            href="https://codeforces.com/profile/Ankit_singh_sisodya"
+            href="https://www.ycombinator.com/startupschool"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src="https://www.google.com/s2/favicons?domain=codeforces.com&sz=64"
+            <Image
+              src="https://www.google.com/s2/favicons?domain=ycombinator.com&sz=64"
               alt=""
               aria-hidden="true"
+              width={16}
+              height={16}
             />
-            <strong>Expert</strong> on Codeforces
+            <strong>Y Combinator</strong> Startup School
           </a>
-          <span className="credDot" aria-hidden="true">·</span>
-          <a
-            className="cred"
-            href="https://leetcode.com/u/Ankit_singh_sisodya/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://cdn.simpleicons.org/leetcode/FFA116"
-              alt=""
-              aria-hidden="true"
-            />
-            <strong>Guardian</strong> on LeetCode
-          </a>
-          <span className="credDot" aria-hidden="true">·</span>
-          <a
-            className="cred"
-            href="https://www.codechef.com/users/Ankitsisodya"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://www.google.com/s2/favicons?domain=codechef.com&sz=64"
-              alt=""
-              aria-hidden="true"
-            />
-            <strong>5★</strong> on CodeChef
-          </a>
+          {/* {codingProfiles.map((profile, i) => (
+            <span key={i} style={{ display: "contents" }}>
+              <span className="credDot" aria-hidden="true">·</span>
+              <a
+                className="cred"
+                href={profile.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={profileIcons[profile.className]}
+                  alt=""
+                  aria-hidden="true"
+                  width={16}
+                  height={16}
+                />
+                <strong>{profile.rating.split(" • ")[0]}</strong> on {profile.platform}
+              </a>
+            </span>
+          ))} */}
         </p>
       </div>
 

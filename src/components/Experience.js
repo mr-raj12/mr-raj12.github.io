@@ -46,7 +46,7 @@ export default function Experience() {
                       rel="noopener noreferrer"
                     >
                       <i className="fas fa-external-link-alt"></i>{" "}
-                      {exp.githubLink ? "Live" : "View PRs"}
+                      {exp.githubLink ? "Live" : "View"}
                     </a>
                   )}
                   {exp.githubLink && (

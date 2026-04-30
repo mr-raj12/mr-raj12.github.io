@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { getCalApi } from "@calcom/embed-react";
 import { contactInfo } from "@/config/portfolio";
 
-const CAL_USER = "ankit-singh-sisodya";
+const CAL_USER = "mrityunjay-raj";
 
 export default function Contact() {
   useEffect(() => {
