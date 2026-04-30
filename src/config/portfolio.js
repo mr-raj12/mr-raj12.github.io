@@ -105,7 +105,7 @@ export const experiences = [
     logo: "https://www.google.com/s2/favicons?domain=summerofcode.withgoogle.com&sz=128",
     proofLink: "https://summerofcode.withgoogle.com/programs/2026/organizations/python-software-foundation",
     points: [
-      "Project: <strong>Borgbackup Pack Files for borg2</strong> implementing pack file support for the next-generation borg2 storage backend",
+      "Project: <strong>Borgbackup Pack Files for borg2</strong> implementing pack file support for the next-generation borg2 storage backend — <a href=\"https://github.com/search?q=is%3Apr+author%3Amr-raj12+is%3Amerged&type=pullrequests\" target=\"_blank\" rel=\"noopener noreferrer\">view all PRs</a>",
     ],
   },
   {
