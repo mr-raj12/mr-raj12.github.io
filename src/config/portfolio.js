@@ -199,7 +199,7 @@ export const projects = [
     icon: "fas fa-chart-line",
     tech: ["React", "TypeScript", "Vite", "GitHub API"],
     liveLink: "https://gsoc.app/",
-    githubLink: "https://github.com/Ankitsinghsisodya/Gsoc-espionage",
+    githubLink: "https://github.com/mr-raj12/Gsoc-espionage",
   },
 ];
 
