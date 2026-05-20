@@ -1,0 +1,183 @@
+cool so see % Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.9in}
+\addtolength{\textheight}{1.8in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=-2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Mrityunjay Raj} \\ \vspace{4pt}
+    \small 
+    \href{tel:+919304584358}{\faPhone\ +91 930 458 4358} ~ 
+    \href{mailto:mr.raj.earth@gmail.com}{\faEnvelope\ \underline{mr.raj.earth@gmail.com}} ~
+    \href{https://www.linkedin.com/in/mrityunjay-raj-75808b1b6/}{\faLinkedin\ \underline{LinkedIn}} ~
+    \href{https://codeforces.com/profile/mr_raj12}{\faKeyboard\ \underline{Codeforces}} ~
+    \href{https://leetcode.com/mr_raj12}{\faLaptopCode\ \underline{LeetCode}} ~
+    \href{https://github.com/mr-raj12}{\faGithub\ \underline{GitHub}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Birla Institute of Technology, Mesra}{Sept 2023 -- Jul 2027}
+      {Bachelor of Technology in Computer Science $|$ CGPA: 8.22}{Ranchi, Jharkhand}
+    \resumeSubheading
+      {Darbhanga Public School}{Aug 2020 -- Jun 2022}
+      {\textbf{PCM} (12th: 91.0\%)}{Darbhanga, Bihar}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\textbf{Open Source Contributor} $|$ \textmd{BorgBase, BorgBackup, AboutCode \& OSSF}}{Dec 2025 -- Present}
+      {60+ Pull Requests}{Remote}
+      \resumeItemListStart
+        \resumeItem{\textbf{BorgBackup (Borg):} Authored 33 PRs optimizing CI/CD pipelines, Python 3.12 compatibility, and resolving complex timezone bugs and solving several major bugs. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}}
+        \resumeItem{\textbf{BorgBase (Vorta):} Authored 16 PRs optimizing CI/CD pipelines, Python 3.12 compatibility, and resolving complex timezone bugs along with completing 2 projects. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}}
+        \resumeItem{\textbf{AboutCode:} Submitted 16 PRs across ScanCode \& VulnerableCode enhancing code quality and CI workflows. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}}
+        \resumeItem{\textbf{OSSF (CVE Binary Tool):} Resolved critical Windows crash loops involving sqlite3 databases via filesystem optimizations. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\textbf{EkamApps (Turrant AI)} $|$ \textmd{Python, PostgreSQL, REST APIs, Next.js}}{Oct 2025 -- Jan 2026}
+      {AI Engineering Intern}{Remote}
+      \resumeItemListStart
+        \resumeItem{Engineered a scalable RESTful API suite and credit-based billing microservice, successfully handling 500+ concurrent transactions using Node.js.}
+        \resumeItem{Architected a multi-tenant notification system across WhatsApp, email, and web portals using an event-driven architecture.}
+        \resumeItem{Optimized PostgreSQL schemas (118+ tables) via advanced query tuning and indexing, improving OCR accuracy by 25\%.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\textbf{PromptCue} $|$ \textmd{Node.js, Next.js, Redis}}{Dec 2024 -- Jun 2025}
+      {SDE Intern}{Remote}
+      \resumeItemListStart
+        \resumeItem{Built an AI aggregator platform integrating LLMs, MCP tools, local file systems, and image generation APIs using Node.js and Next.js.}
+        \resumeItem{Reduced model inference latency by 30\% by implementing Redis caching strategies and asynchronous processing queues.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS---------------
+\section{Achievements}
+    \begin{itemize}[itemsep=-2pt, parsep=3pt, leftmargin=0.15in]
+        \small
+        \item Served as \textbf{Technical Lead} for \textbf{Pantheon'25}, managing infrastructure for 4000+ visitors and spearheading the 'HackQuest'25' hackathon for 1200+ participants. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}
+        \item Acted as \textbf{Core Developer} for \textbf{BITOTSAV}, building a QR-based ticketing system for 5000+ attendees and boosting engagement by 40\%. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}
+        \item Served as \textbf{Technical Coordinator} for \textbf{UNESQUO \& SPIC MACAY}, ensuring 99.9\% uptime for web platforms during cultural events. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}
+        \item Secured \textbf{2nd place} for an innovative Stocks Portfolio Manager solution in \textbf{HACKATRON} at BIT Sindri. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}
+        \item Received Pre-Placement Interview (PPI) from ILNB Services in \textbf{HACKFEST} by \textbf{IIT ISM Dhanbad}. \hspace*{\fill} \href{https://github.com/}{\textbf{[Credential]}}
+        \item Secured \textbf{1st place} in \textbf{CICADA-CTF} and won the no-monitor contest in \textbf{Blind Coding}. \hspace*{\fill} \href{https://github.com/}{\textbf{[Certificate]}}
+    \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Gsoc-espionage} $|$ \emph{React.js, TypeScript, Vite, GitHub REST API}}{\href{https://gsoc-espionage.vercel.app/}{\textbf{Live}} $|$ \href{https://github.com/mr-raj12}{\textbf{GitHub}}}
+      \resumeItemListStart
+        \resumeItem{Engineered a GitHub PR analytics dashboard serving \textbf{1.4k active users}, visualizing merge rates, contributor stats, and activity timelines for any repository via the GitHub API.}
+        \resumeItem{Implemented advanced data handling features including branch filtering, customizable time ranges, and \textbf{CSV/JSON data exports} for detailed repository auditing.}
+        \resumeItem{Integrated dynamic \textbf{GSoC 2026 organization lists} and robust theme support, ensuring a highly scalable and accessible user experience.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages:} C, C++, Java, Python, JavaScript, TypeScript, HTML/CSS, SQL, Solidity \\ \vspace{2pt}
+     \textbf{Web Technologies:} Next.js, Node.js, GraphQL, REST APIs, WebSockets, Prisma, Supabase, Appwrite \\ \vspace{2pt}
+     \textbf{Databases \& Cloud:} PostgreSQL, MongoDB, Redis, Docker, AWS, GCP, Nginx, CI/CD \\ \vspace{2pt}
+     \textbf{Developer Tools:} Git, GitHub, VS Code, Postman, Firebase, Vercel, Cloudinary, Render
+    }}
+ \end{itemize}
+
+\end{document}  
