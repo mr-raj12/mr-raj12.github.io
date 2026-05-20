@@ -1,4 +1,4 @@
-cool so see % Resume in Latex
+% Resume in Latex
 % Author : Jake Gutierrez
 % Based off of: https://github.com/sb2nov/resume
 % License : MIT
@@ -35,8 +35,8 @@ cool so see % Resume in Latex
 \addtolength{\oddsidemargin}{-0.6in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-0.9in}
-\addtolength{\textheight}{1.8in}
+\addtolength{\topmargin}{-1.0in}
+\addtolength{\textheight}{2.2in}
 
 \urlstyle{same}
 
@@ -46,8 +46,8 @@ cool so see % Resume in Latex
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-5pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -88,14 +88,16 @@ cool so see % Resume in Latex
 
 \begin{document}
 
+\vspace*{6pt}
 \begin{center}
     {\Huge \scshape Mrityunjay Raj} \\ \vspace{4pt}
     \small 
-    \href{tel:+919304584358}{\faPhone\ +91 930 458 4358} ~ 
+    \href{tel:+919304584358}{\faPhone\ +91 9304584358} ~ 
     \href{mailto:mr.raj.earth@gmail.com}{\faEnvelope\ \underline{mr.raj.earth@gmail.com}} ~
-    \href{https://www.linkedin.com/in/mrityunjay-raj-75808b1b6/}{\faLinkedin\ \underline{LinkedIn}} ~
-    \href{https://codeforces.com/profile/mr_raj12}{\faKeyboard\ \underline{Codeforces}} ~
-    \href{https://leetcode.com/mr_raj12}{\faLaptopCode\ \underline{LeetCode}} ~
+    \href{https://www.linkedin.com/in/mrityunjay-raj/}{\faLinkedin\ \underline{LinkedIn}} ~
+    \href{https://codeforces.com/profile/plagiarism2012}{\faKeyboard\ \underline{Codeforces}} ~
+    \href{https://leetcode.com/u/Asuratrix/}{\faLaptopCode\ \underline{LeetCode}} ~
+    \href{https://www.codechef.com/users/real_wish_53}{\faCode\ \underline{CodeChef}} ~
     \href{https://github.com/mr-raj12}{\faGithub\ \underline{GitHub}}
     \vspace{-8pt}
 \end{center}
@@ -111,25 +113,32 @@ cool so see % Resume in Latex
       {\textbf{PCM} (12th: 91.0\%)}{Darbhanga, Bihar}
   \resumeSubHeadingListEnd
 
+%-----------CODING PROFILES-----------
+\vspace{-4mm}
+\section{Coding Profiles}
+\noindent
+$\bullet$ Codeforces: \textbf{Expert: 1648} \href{https://codeforces.com/profile/plagiarism2012}{\textbf{[Link]}} \hfill
+$\bullet$ LeetCode: \textbf{Guardian: 2290} \href{https://leetcode.com/u/Asuratrix/}{\textbf{[Link]}} \hfill
+$\bullet$ CodeChef: \textbf{4-Star: 1865} \href{https://www.codechef.com/users/real_wish_53}{\textbf{[Link]}}
+\vspace{-4mm}
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {\textbf{Open Source Contributor} $|$ \textmd{BorgBase, BorgBackup, AboutCode \& OSSF}}{Dec 2025 -- Present}
-      {60+ Pull Requests}{Remote}
+      {\textbf{Google Summer of Code 2026} $|$ \textmd{Python Software Foundation}}{May 2026 -- Sep 2026}
+      {Open Source Developer $|$ Python, BorgBackup, C}{Remote}
       \resumeItemListStart
-        \resumeItem{\textbf{BorgBackup (Borg):} Authored 33 PRs optimizing CI/CD pipelines, Python 3.12 compatibility, and resolving complex timezone bugs and solving several major bugs. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}}
-        \resumeItem{\textbf{BorgBase (Vorta):} Authored 16 PRs optimizing CI/CD pipelines, Python 3.12 compatibility, and resolving complex timezone bugs along with completing 2 projects. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}}
-        \resumeItem{\textbf{AboutCode:} Submitted 16 PRs across ScanCode \& VulnerableCode enhancing code quality and CI workflows. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}}
-        \resumeItem{\textbf{OSSF (CVE Binary Tool):} Resolved critical Windows crash loops involving sqlite3 databases via filesystem optimizations. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}}
+        \resumeItem{Selected for \textbf{GSoC 2026} under the \textbf{Python Software Foundation} to implement pack file support for the next-generation \textbf{borg2} storage backend (\textit{Borgbackup Pack Files for borg2}). \hspace*{\fill} \href{https://summerofcode.withgoogle.com/programs/2026/organizations/python-software-foundation}{\textbf{[Program]}}}
+        \resumeItem{Authored \textbf{33 merged PRs} in BorgBackup (Borg) optimizing CI/CD pipelines, Python 3.12 compatibility, and resolving complex timezone bugs prior to selection. \hspace*{\fill} \href{https://github.com/borgbackup/borg/pulls?q=is\%3Amerged+is\%3Apr+author\%3Amr-raj12}{\textbf{[PRs]}}}
+        \resumeItem{Authored \textbf{6 merged PRs} in BorgBase (Vorta) completing 2 projects, resolved critical Windows crash loops in \textbf{OSSF CVE Binary Tool} via filesystem optimizations. \hspace*{\fill} \href{https://github.com/borgbase/vorta/pulls?q=is\%3Amerged+is\%3Apr+author\%3Amr-raj12}{\textbf{[PRs]}}}
       \resumeItemListEnd
 
     \resumeSubheading
       {\textbf{EkamApps (Turrant AI)} $|$ \textmd{Python, PostgreSQL, REST APIs, Next.js}}{Oct 2025 -- Jan 2026}
       {AI Engineering Intern}{Remote}
       \resumeItemListStart
-        \resumeItem{Engineered a scalable RESTful API suite and credit-based billing microservice, successfully handling 500+ concurrent transactions using Node.js.}
+        \resumeItem{Engineered a scalable RESTful API suite and credit-based billing microservice, successfully handling 500+ concurrent transactions using Node.js. \hspace*{\fill} \href{https://turrant.ai/}{\textbf{[Company]}}}
         \resumeItem{Architected a multi-tenant notification system across WhatsApp, email, and web portals using an event-driven architecture.}
         \resumeItem{Optimized PostgreSQL schemas (118+ tables) via advanced query tuning and indexing, improving OCR accuracy by 25\%.}
       \resumeItemListEnd
@@ -148,19 +157,19 @@ cool so see % Resume in Latex
 \section{Achievements}
     \begin{itemize}[itemsep=-2pt, parsep=3pt, leftmargin=0.15in]
         \small
-        \item Served as \textbf{Technical Lead} for \textbf{Pantheon'25}, managing infrastructure for 4000+ visitors and spearheading the 'HackQuest'25' hackathon for 1200+ participants. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}
-        \item Acted as \textbf{Core Developer} for \textbf{BITOTSAV}, building a QR-based ticketing system for 5000+ attendees and boosting engagement by 40\%. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}
-        \item Served as \textbf{Technical Coordinator} for \textbf{UNESQUO \& SPIC MACAY}, ensuring 99.9\% uptime for web platforms during cultural events. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}
-        \item Secured \textbf{2nd place} for an innovative Stocks Portfolio Manager solution in \textbf{HACKATRON} at BIT Sindri. \hspace*{\fill} \href{https://github.com/}{\textbf{[Link]}}
-        \item Received Pre-Placement Interview (PPI) from ILNB Services in \textbf{HACKFEST} by \textbf{IIT ISM Dhanbad}. \hspace*{\fill} \href{https://github.com/}{\textbf{[Credential]}}
-        \item Secured \textbf{1st place} in \textbf{CICADA-CTF} and won the no-monitor contest in \textbf{Blind Coding}. \hspace*{\fill} \href{https://github.com/}{\textbf{[Certificate]}}
+        \item Served as \textbf{Technical Lead} for \textbf{Pantheon'25}, managing infrastructure for 4000+ visitors and spearheading the 'HackQuest'25' hackathon for 1200+ participants. \hspace*{\fill} \href{https://pantheon25.com/}{\textbf{[Link]}}
+        \item Acted as \textbf{Core Developer} for \textbf{BITOTSAV}, building a QR-based ticketing system for 5000+ attendees and boosting engagement by 40\%. \hspace*{\fill} \href{https://bitotsav.bitmesra.ac.in/}{\textbf{[Link]}}
+        \item Served as \textbf{Technical Coordinator} for \textbf{UNESQUO \& SPIC MACAY}, ensuring 99.9\% uptime for web platforms during cultural events. \hspace*{\fill} \href{http://unesquo.in/}{\textbf{[Link]}}
+        \item Secured \textbf{2nd place} for an innovative Stocks Portfolio Manager solution in \textbf{HACKATRON} at BIT Sindri. \hspace*{\fill} \href{https://www.linkedin.com/posts/vaibhav-anand-singh-412604299_teamosiris-hackathon-hackatron-ugcPost-7357728905987788800-T3L3}{\textbf{[Post]}}
+        \item Received Pre-Placement Interview (PPI) from ILNB Services in \textbf{HACKFEST} by \textbf{IIT ISM Dhanbad}. \hspace*{\fill} \href{https://www.linkedin.com/posts/vaibhav-anand-singh-412604299_hackfest25-fintech-ai-ugcPost-7317647847674298386-bCB4}{\textbf{[Post]}}
+        \item Secured \textbf{1st place} in \textbf{CICADA-CTF} and won the no-monitor contest in \textbf{Blind Coding}.
     \end{itemize}
 
 %-----------PROJECTS-----------
 \section{Projects}
   \resumeSubHeadingListStart
     \resumeProjectHeading
-      {\textbf{Gsoc-espionage} $|$ \emph{React.js, TypeScript, Vite, GitHub REST API}}{\href{https://gsoc-espionage.vercel.app/}{\textbf{Live}} $|$ \href{https://github.com/mr-raj12}{\textbf{GitHub}}}
+      {\textbf{Gsoc-espionage} $|$ \emph{React.js, TypeScript, Vite, GitHub REST API}}{\href{https://gsoc.app/}{\textbf{Live}} $|$ \href{https://github.com/mr-raj12/Gsoc-espionage}{\textbf{GitHub}}}
       \resumeItemListStart
         \resumeItem{Engineered a GitHub PR analytics dashboard serving \textbf{1.4k active users}, visualizing merge rates, contributor stats, and activity timelines for any repository via the GitHub API.}
         \resumeItem{Implemented advanced data handling features including branch filtering, customizable time ranges, and \textbf{CSV/JSON data exports} for detailed repository auditing.}
@@ -173,9 +182,9 @@ cool so see % Resume in Latex
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages:} C, C++, Java, Python, JavaScript, TypeScript, HTML/CSS, SQL, Solidity \\ \vspace{2pt}
-     \textbf{Web Technologies:} Next.js, Node.js, GraphQL, REST APIs, WebSockets, Prisma, Supabase, Appwrite \\ \vspace{2pt}
-     \textbf{Databases \& Cloud:} PostgreSQL, MongoDB, Redis, Docker, AWS, GCP, Nginx, CI/CD \\ \vspace{2pt}
+     \textbf{Languages:} C, C++, Java, Python, JavaScript, TypeScript, HTML/CSS, SQL, Solidity \\
+     \textbf{Web Technologies:} Next.js, Node.js, GraphQL, REST APIs, WebSockets, Prisma, Supabase, Appwrite \\
+     \textbf{Databases \& Cloud:} PostgreSQL, MongoDB, Redis, Docker, AWS, GCP, Nginx, CI/CD \\
      \textbf{Developer Tools:} Git, GitHub, VS Code, Postman, Firebase, Vercel, Cloudinary, Render
     }}
  \end{itemize}

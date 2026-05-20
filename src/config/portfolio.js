@@ -51,20 +51,20 @@ export const socialLinks = [
 export const codingProfiles = [
   {
     platform: "Codeforces",
-    rating: "Pupil • 1225",
-    url: "https://codeforces.com/profile/mr_raj12",
+    rating: "Expert • 1648",
+    url: "https://codeforces.com/profile/plagiarism2012",
     className: "codeforces",
   },
   {
     platform: "LeetCode",
-    rating: "Specialist • 1556",
-    url: "https://leetcode.com/u/mr_raj12/",
+    rating: "Guardian • 2290",
+    url: "https://leetcode.com/u/Asuratrix/",
     className: "leetcode",
   },
   {
     platform: "CodeChef",
-    rating: "1-Star • 1376",
-    url: "https://www.codechef.com/users/mr_raj12",
+    rating: "4-Star • 1865",
+    url: "https://www.codechef.com/users/real_wish_53",
     className: "codechef",
   },
 ];
