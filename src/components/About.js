@@ -22,6 +22,7 @@ export default function About() {
         </div>
       </div>
 
+      {/* YC mention hidden for now
       <a
         href="https://www.ycombinator.com/startupschool"
         target="_blank"
@@ -41,6 +42,7 @@ export default function About() {
           <div className="eduDegree">Startup School</div>
         </div>
       </a>
+      */}
 
       <div className="aboutStats">
         {aboutStats.map((stat, i) => {

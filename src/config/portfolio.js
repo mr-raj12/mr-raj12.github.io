@@ -80,9 +80,9 @@ export const navLinks = [
 ];
 
 export const aboutStats = [
-  { number: "75+", label: "Merged PRs (Open Source)", link: "https://github.com/search?q=is%3Apr+author%3Amr-raj12+is%3Amerged&type=pullrequests" },
+  { number: "125+", label: "Merged PRs (Open Source)", link: "https://github.com/search?q=is%3Apr+author%3Amr-raj12+is%3Amerged&type=pullrequests" },
   {
-    number: "2k+",
+    number: "2.5k+",
     label: "Active Users (GSoC Espionage)",
     link: "https://gsoc.app/",
   },
@@ -91,7 +91,7 @@ export const aboutStats = [
 export const education = {
   institution: "Birla Institute of Technology, Mesra",
   degree: "B.Tech in Computer Science",
-  duration: "September 2023 – July 2027",
+  duration: "September 2023 – April 2027",
   cgpa: "8.22",
 };
 
@@ -109,18 +109,6 @@ export const experiences = [
     ],
   },
   {
-    company: "Klyrax Labs",
-    role: "Associate Software Engineer",
-    duration: "Dec 2025 – Present",
-    type: "Remote • Part-time",
-    tech: null,
-    logo: "/logos/klyrax_labs_logo.jpg",
-    proofLink: "https://www.linkedin.com/in/mrityunjay-raj/",
-    points: [
-      "Contributing to product development and engineering initiatives as an Associate Software Engineer",
-    ],
-  },
-  {
     company: "Open Source Contributor",
     role: "BorgBackup • BorgBase • OSSF",
     duration: "Dec 2025 – Present",
@@ -133,6 +121,7 @@ export const experiences = [
       "<strong>BorgBackup (Borg):</strong> Authored 33 PRs optimizing CI/CD pipelines, Python 3.12 compatibility, and resolving complex timezone bugs",
       "<strong>BorgBase (Vorta):</strong> Authored 16 PRs optimizing CI/CD pipelines, Python 3.12 compatibility, and resolving complex timezone bugs, completing 2 full projects",
       "<strong>OSSF (CVE Binary Tool):</strong> Resolved critical Windows crash loops involving sqlite3 databases via filesystem optimizations",
+      "<strong>Also contributed to:</strong> Supermemory and Hermes Agent (Nous Research)",
     ],
   },
   {
@@ -150,9 +139,21 @@ export const experiences = [
     ],
   },
   {
+    company: "Klyrax Labs",
+    role: "Associate Software Engineer",
+    duration: "Dec 2025 – May 2026",
+    type: "Remote • Part-time",
+    tech: null,
+    logo: "/logos/klyrax_labs_logo.jpg",
+    proofLink: "https://www.linkedin.com/in/mrityunjay-raj/",
+    points: [
+      "Contributing to product development and engineering initiatives as an Associate Software Engineer",
+    ],
+  },
+  {
     company: "BITAcademia",
     role: "SDE Intern",
-    duration: "July 2025 – Present",
+    duration: "July 2025 – May 2026",
     type: "Birla Institute of Technology, Mesra",
     tech: "React • Node.js • MongoDB • Express",
     logo: "https://www.google.com/s2/favicons?domain=bitmesra.ac.in&sz=128",
@@ -193,9 +194,33 @@ export const experiences = [
 
 export const projects = [
   {
+    title: "Cogent",
+    description:
+      "Terminal-based autonomous coding agent integrating Gemini and Groq models with filesystem and shell tools through a unified streaming interface. Features an autonomous read-act loop with context compaction, session persistence, and provider-agnostic tool execution for interactive and batch workflows.",
+    icon: "fas fa-terminal",
+    tech: ["TypeScript", "Node.js", "LLMs"],
+    githubLink: "https://github.com/mr-raj12/cogent",
+  },
+  {
+    title: "Runexus",
+    description:
+      "Distributed workflow orchestration engine that executes DAG-based jobs across Kubernetes runner pods with parallel scheduling and Redis-backed queues. Implements heartbeat monitoring and watchdog-based failure detection, guaranteeing deterministic workflow completion and automatic handling of pod failures.",
+    icon: "fas fa-project-diagram",
+    tech: ["TypeScript", "Kubernetes", "Redis", "Express", "Docker"],
+    githubLink: "https://github.com/mr-raj12/Runexus",
+  },
+  {
+    title: "Exchange Stack",
+    description:
+      "Centralized cryptocurrency exchange supporting spot and perpetual markets with a high-performance in-memory matching engine, price-time priority, and real-time WebSocket updates. Built on a 6-service event-driven architecture using Redis Streams, WAL + snapshot recovery, and PostgreSQL audit trails for durable order processing and sub-second restarts.",
+    icon: "fas fa-coins",
+    tech: ["TypeScript", "Redis Streams", "PostgreSQL", "WebSockets", "Docker"],
+    githubLink: "https://github.com/mr-raj12/exchange-stack",
+  },
+  {
     title: "GSoC Espionage",
     description:
-      "GitHub PR analytics dashboard with 1.4k+ active users visualizing merge rates, contributor stats, and activity timelines for any repository. Features branch filtering, customizable time ranges, CSV/JSON data exports, GSoC 2026 organization lists, and theme support.",
+      "GitHub PR analytics dashboard with 2.5k+ active users visualizing merge rates, contributor stats, and activity timelines for any repository. Features branch filtering, customizable time ranges, CSV/JSON data exports, GSoC 2026 organization lists, and theme support.",
     icon: "fas fa-chart-line",
     tech: ["React", "TypeScript", "Vite", "GitHub API"],
     liveLink: "https://gsoc.app/",

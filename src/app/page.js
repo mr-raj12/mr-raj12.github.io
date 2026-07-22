@@ -42,13 +42,13 @@ function useScrollReveal() {
   }, []);
 }
 
-export default function Home() {
+export default function Home({ initialBlogOpen = false }) {
   useScrollReveal();
 
   return (
     <div className="page">
       <main className="container">
-        <Hero />
+        <Hero initialBlogOpen={initialBlogOpen} />
         <About />
         <Experience />
         <Projects />
